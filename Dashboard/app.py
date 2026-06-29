@@ -63,7 +63,7 @@ h2 {
 # -----------------------------
 # TITLE
 # -----------------------------
-st.title("🏥 Workforce Intelligence Dashboard")
+st.title("HR Dashboard for Home Care Business")
 
 # -----------------------------
 # LOAD DATA
