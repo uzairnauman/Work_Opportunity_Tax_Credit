@@ -60,7 +60,11 @@ if clients_exists:
 # -----------------------------
 # TABS
 # -----------------------------
-tab_hr, tab_shifts = st.tabs(["👥 HR Overview", "📋 Shifts Scoreboard"])
+wotc_exists = (BASE_DIR / "Datasets" / "WOTC_Determinations.csv").exists()
+if wotc_exists:
+    wotc_df = pd.read_csv(BASE_DIR / "Datasets" / "WOTC_Determinations.csv")
+
+tab_hr, tab_shifts, tab_wotc = st.tabs(["👥 HR Overview", "📋 Shifts Scoreboard", "💰 WOTC Tracking"])
 
 
 # ============================================================
@@ -304,3 +308,151 @@ with tab_shifts:
     fig_pos.update_xaxes(showgrid=False)
     fig_pos.update_yaxes(showgrid=False)
     st.plotly_chart(fig_pos, use_container_width=True)
+
+
+
+# ============================================================
+# TAB 3 — WOTC TRACKING
+# ============================================================
+with tab_wotc:
+
+    if not wotc_exists:
+        st.info("No WOTC data found. Run `main_wotc.py` first.")
+        st.stop()
+
+    if not shifts_exists:
+        st.info("No Shifts data found. Run `backfill_shifts.py` or `main_shifts.py` first.")
+        st.stop()
+
+    # ----------------------------------------------------------
+    # BUILD WOTC TRACKING TABLE
+    # Active employees only + eligible only + join hours from shifts
+    # ----------------------------------------------------------
+    active_employees = employees_df[employees_df["status"] == "Active"][
+        ["employee_id", "first_name", "last_name", "position", "base_pay_rate"]
+    ].copy()
+
+    eligible_active = wotc_df[wotc_df["eligible"] == True].merge(
+        active_employees, on="employee_id", how="inner"
+    )
+
+    completed_hours = (
+        shifts_df[shifts_df["status"] == "Completed"]
+        .groupby("employee_id")["actual_hours"]
+        .sum()
+        .reset_index()
+        .rename(columns={"actual_hours": "total_hours"})
+    )
+
+    tracking = eligible_active.merge(completed_hours, on="employee_id", how="left")
+    tracking["total_hours"] = tracking["total_hours"].fillna(0)
+    tracking["employee"]    = tracking["first_name"] + " " + tracking["last_name"]
+    tracking["hours_remaining_120"] = (120 - tracking["total_hours"]).clip(lower=0)
+    tracking["hours_remaining_400"] = (400 - tracking["total_hours"]).clip(lower=0)
+
+    # Buckets
+    under_120  = tracking[tracking["total_hours"] < 120].sort_values("total_hours", ascending=False)
+    mid_range  = tracking[(tracking["total_hours"] >= 120) & (tracking["total_hours"] < 400)].sort_values("total_hours", ascending=False)
+    maxed_out  = tracking[tracking["total_hours"] >= 400]
+
+    # ----------------------------------------------------------
+    # KPIs
+    # ----------------------------------------------------------
+    k1, k2, k3, k4 = st.columns(4)
+    k1.metric("Eligible Active Employees", len(tracking))
+    k2.metric("⚠️ Under 120 hrs",          len(under_120),
+              help="No credit earned yet")
+    k3.metric("🔶 120–399 hrs",             len(mid_range),
+              help="Partial credit (25% of wages up to $1,500)")
+    k4.metric("✅ 400+ hrs",                len(maxed_out),
+              help="Full credit (40% of wages up to $2,400)")
+
+    st.divider()
+
+    # ----------------------------------------------------------
+    # GRAPH 1 — Under 120 hrs: at risk of earning nothing
+    # ----------------------------------------------------------
+    st.markdown("#### ⚠️ At Risk — Under 120 Hours (No Credit Yet)")
+    st.caption("These employees are WOTC eligible but haven't worked enough hours to earn any credit. "
+               "Prioritize scheduling them.")
+
+    if under_120.empty:
+        st.success("All eligible employees have cleared 120 hours.")
+    else:
+        fig1 = px.bar(
+            under_120.head(30),
+            x="total_hours",
+            y="employee",
+            color="wotc_category",
+            orientation="h",
+            text="total_hours",
+            labels={"total_hours": "Hours Worked", "employee": "", "wotc_category": "WOTC Category"},
+            color_discrete_sequence=px.colors.qualitative.Safe,
+        )
+        fig1.add_vline(x=120, line_dash="dash", line_color="red",
+                       annotation_text="120 hr minimum", annotation_position="top right")
+        fig1.update_layout(
+            template="simple_white",
+            font=dict(family="Inter, system-ui", size=12),
+            title_font_size=14,
+            margin=dict(l=20, r=20, t=20, b=20),
+            yaxis=dict(autorange="reversed"),
+            height=max(300, len(under_120.head(30)) * 28),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        )
+        fig1.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside")
+        fig1.update_xaxes(showgrid=False, range=[0, 130])
+        fig1.update_yaxes(showgrid=False)
+        st.plotly_chart(fig1, use_container_width=True)
+
+    st.divider()
+
+    # ----------------------------------------------------------
+    # GRAPH 2 — 120–399 hrs: partial credit, push to 400
+    # ----------------------------------------------------------
+    st.markdown("#### 🔶 In Progress — 120 to 399 Hours (Partial Credit)")
+    st.caption("These employees have earned partial credit. Getting them to 400 hours unlocks the full credit amount.")
+
+    if mid_range.empty:
+        st.info("No eligible employees in the 120–399 hour range yet. "
+                "This will populate as shift history grows.")
+    else:
+        fig2 = px.bar(
+            mid_range,
+            x="total_hours",
+            y="employee",
+            color="wotc_category",
+            orientation="h",
+            text="total_hours",
+            labels={"total_hours": "Hours Worked", "employee": "", "wotc_category": "WOTC Category"},
+            color_discrete_sequence=px.colors.qualitative.Pastel,
+        )
+        fig2.add_vline(x=400, line_dash="dash", line_color="green",
+                       annotation_text="400 hr full credit", annotation_position="top right")
+        fig2.update_layout(
+            template="simple_white",
+            font=dict(family="Inter, system-ui", size=12),
+            margin=dict(l=20, r=20, t=20, b=20),
+            yaxis=dict(autorange="reversed"),
+            height=max(300, len(mid_range) * 28),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        )
+        fig2.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside")
+        fig2.update_xaxes(showgrid=False, range=[0, 420])
+        fig2.update_yaxes(showgrid=False)
+        st.plotly_chart(fig2, use_container_width=True)
+
+    # ----------------------------------------------------------
+    # WOTC CATEGORY BREAKDOWN (compact summary)
+    # ----------------------------------------------------------
+    st.divider()
+    st.markdown("**Eligible Employees by WOTC Category**")
+    cat_summary = (
+        tracking.groupby("wotc_category")
+        .agg(employees=("employee_id", "count"), avg_hours=("total_hours", "mean"))
+        .reset_index()
+        .sort_values("employees", ascending=False)
+    )
+    cat_summary.columns = ["WOTC Category", "Employees", "Avg Hours"]
+    cat_summary["Avg Hours"] = cat_summary["Avg Hours"].map(lambda x: f"{x:.1f}")
+    st.dataframe(cat_summary, use_container_width=True, hide_index=True)
