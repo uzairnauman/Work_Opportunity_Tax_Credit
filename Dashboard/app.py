@@ -15,7 +15,7 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* Global Reset for Clean Typography */
+/* Global Reset for Clean Typography matching chat style */
 html, body, [class*="css"] {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     color: #1F2937;
@@ -50,6 +50,9 @@ hr { margin: 2rem 0 !important; border-color: #F3F4F6 !important; }
 
 st.title("HR Dashboard — Home Care Business")
 
+# Custom Modern Palette
+MODERN_PALETTE = ["#4F46E5", "#0D9488", "#F59E0B", "#EF4444", "#10B981", "#6366F1"]
+
 # -----------------------------
 # LOAD DATA
 # -----------------------------
@@ -67,13 +70,13 @@ if clients_exists:
     clients_df = pd.read_csv(BASE_DIR / "Datasets" / "Clients.csv")
 
 # -----------------------------
-# TABS
+# TABS (Icons Removed)
 # -----------------------------
 wotc_exists = (BASE_DIR / "Datasets" / "WOTC_Determinations.csv").exists()
 if wotc_exists:
     wotc_df = pd.read_csv(BASE_DIR / "Datasets" / "WOTC_Determinations.csv")
 
-tab_hr, tab_shifts, tab_wotc = st.tabs(["👥 HR Overview", "📋 Shifts Scoreboard", "💰 WOTC Tracking"])
+tab_hr, tab_shifts, tab_wotc = st.tabs(["HR Overview", "Shifts Scoreboard", "WOTC Tracking"])
 
 
 # ============================================================
@@ -81,7 +84,6 @@ tab_hr, tab_shifts, tab_wotc = st.tabs(["👥 HR Overview", "📋 Shifts Scorebo
 # ============================================================
 with tab_hr:
 
-    # Month filter (existing logic)
     employees_df["month_dt"] = employees_df["hire_date"].dt.to_period("M").dt.to_timestamp()
     employees_df["month"]    = employees_df["month_dt"].dt.strftime("%b %Y")
     month_labels = (
@@ -90,7 +92,7 @@ with tab_hr:
     )
 
     selected_month = st.segmented_control(
-        "📅 Filter by Hire Month",
+        "Filter by Hire Month",
         options=["All"] + month_labels,
         default="All"
     )
@@ -99,7 +101,6 @@ with tab_hr:
     if selected_month != "All":
         df = df[df["month"] == selected_month]
 
-    # KPIs
     active     = df[~df["status"].str.contains("Resigned|Not Eligible", na=False)]
     resigned   = df[df["status"].str.contains("Resigned", na=False)]
     terminated = df[df["status"].str.contains("Not Eligible", na=False)]
@@ -121,14 +122,14 @@ with tab_hr:
     fig_roles.update_layout(
         template="simple_white", 
         title="Workforce by Role",
-        font=dict(family="Inter, system-ui", size=12, color="#374151"),
-        title_font=dict(size=15, weight="bold", color="#111827"),
-        margin=dict(l=10, r=40, t=50, b=10),
+        font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+        title_font=dict(size=16, weight="bold", color="#111827"),
+        margin=dict(l=120, r=40, t=50, b=10),
         showlegend=False
     )
-    fig_roles.update_traces(marker_color="#4F46E5", textposition="outside", marker_line_width=0, width=0.6)
+    fig_roles.update_traces(marker_color="#4F46E5", textposition="outside", marker_line_width=0, width=0.5)
     fig_roles.update_xaxes(showgrid=False, visible=False)
-    fig_roles.update_yaxes(showgrid=False, zeroline=False, type='category')
+    fig_roles.update_yaxes(showgrid=False, zeroline=False, type='category', tickfont=dict(size=14))
     col1.plotly_chart(fig_roles, use_container_width=True, config={'displayModeBar': False})
 
     # Average pay
@@ -138,14 +139,14 @@ with tab_hr:
     fig_pay.update_layout(
         template="simple_white", 
         title="Average Pay by Role",
-        font=dict(family="Inter, system-ui", size=12, color="#374151"),
-        title_font=dict(size=15, weight="bold", color="#111827"),
-        margin=dict(l=10, r=40, t=50, b=10),
+        font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+        title_font=dict(size=16, weight="bold", color="#111827"),
+        margin=dict(l=120, r=40, t=50, b=10),
         showlegend=False
     )
-    fig_pay.update_traces(marker_color="#0D9488", textposition="outside", texttemplate="$%{text:.2f}", marker_line_width=0, width=0.6)
+    fig_pay.update_traces(marker_color="#0D9488", textposition="outside", texttemplate="$%{text:.2f}", marker_line_width=0, width=0.5)
     fig_pay.update_xaxes(showgrid=False, visible=False)
-    fig_pay.update_yaxes(showgrid=False, zeroline=False, type='category')
+    fig_pay.update_yaxes(showgrid=False, zeroline=False, type='category', tickfont=dict(size=14))
     col2.plotly_chart(fig_pay, use_container_width=True, config={'displayModeBar': False})
 
 
@@ -205,7 +206,7 @@ with tab_shifts:
         "Shift Status",
         options=sorted(shifts_df["status"].unique().tolist()),
         default=["Completed"],
-        help="Completed = hours actually worked. Include Cancelled/No-Show to see full scheduling picture."
+        help="Completed = hours actually worked."
     )
     if selected_statuses:
         s = s[s["status"].isin(selected_statuses)]
@@ -219,7 +220,6 @@ with tab_shifts:
     )
     merged["employee"] = merged["first_name"] + " " + merged["last_name"]
 
-    # KPIs
     total_shifts    = len(s)
     total_hours     = s["actual_hours"].fillna(0).sum()
     unique_employees = s["employee_id"].nunique()
@@ -233,7 +233,6 @@ with tab_shifts:
 
     st.divider()
 
-    # Scoreboard data processing
     scoreboard = (
         merged.groupby(["employee_id", "employee", "position"])
         .agg(
@@ -254,7 +253,7 @@ with tab_shifts:
         display = scoreboard[["employee", "position", "shifts", "hours", "completed"]].copy()
         display.columns = ["Employee", "Position", "Shifts", "Hours", "Completed"]
         display["Hours"] = display["Hours"].map(lambda x: f"{x:.0f}")
-        st.dataframe(display, use_container_width=True, height=420)
+        st.dataframe(display, use_container_width=True, height=440)
 
     with chart_col:
         top_n = scoreboard.head(20)
@@ -262,17 +261,17 @@ with tab_shifts:
             top_n, x="hours", y="employee", color="position", orientation="h", text="hours",
             title=f"Hours Worked by Employee · {period_label} (Top 20)",
             labels={"hours": "Hours Worked", "employee": "", "position": "Position"},
-            color_discrete_sequence=px.colors.qualitative.Safe
+            color_discrete_sequence=MODERN_PALETTE
         )
         fig.update_layout(
             template="simple_white",
-            font=dict(family="Inter, system-ui", size=12, color="#374151"),
-            title_font=dict(size=15, weight="bold", color="#111827"),
-            margin=dict(l=10, r=40, t=70, b=10),
-            yaxis=dict(autorange="reversed", type='category'),
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0, title=None)
+            font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+            title_font=dict(size=16, weight="bold", color="#111827"),
+            margin=dict(l=120, r=40, t=60, b=80),
+            yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
+            legend=dict(orientation="h", yanchor="top", y=-0.15, xanchor="left", x=0, title=None)
         )
-        fig.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.6)
+        fig.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
         fig.update_xaxes(showgrid=False, visible=False)
         fig.update_yaxes(showgrid=False, zeroline=False)
         st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
@@ -287,17 +286,17 @@ with tab_shifts:
 
     fig_pos = px.bar(
         pos_summary, x="Position", y="Hours", text="Hours",
-        color="Position", color_discrete_sequence=px.colors.qualitative.Safe
+        color="Position", color_discrete_sequence=MODERN_PALETTE
     )
     fig_pos.update_layout(
         template="simple_white",
-        font=dict(family="Inter, system-ui", size=12, color="#374151"),
+        font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
         showlegend=False,
         margin=dict(l=10, r=10, t=30, b=10),
         height=280
     )
-    fig_pos.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.4)
-    fig_pos.update_xaxes(showgrid=False, zeroline=False)
+    fig_pos.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.3)
+    fig_pos.update_xaxes(showgrid=False, zeroline=False, tickfont=dict(size=14))
     fig_pos.update_yaxes(showgrid=False, visible=False)
     st.plotly_chart(fig_pos, use_container_width=True, config={'displayModeBar': False})
 
@@ -333,16 +332,15 @@ with tab_wotc:
     mid_range  = tracking[(tracking["total_hours"] >= 120) & (tracking["total_hours"] < 400)].sort_values("total_hours", ascending=False)
     maxed_out  = tracking[tracking["total_hours"] >= 400]
 
-    # KPIs
     k1, k2, k3, k4 = st.columns(4)
     k1.metric("Eligible Active Employees", len(tracking))
-    k2.metric("⚠️ Under 120 hrs",          len(under_120), help="No credit earned yet")
-    k3.metric("🔶 120–399 hrs",             len(mid_range), help="Partial credit (25% of wages up to $1,500)")
-    k4.metric("✅ 400+ hrs",                len(maxed_out), help="Full credit (40% of wages up to $2,400)")
+    k2.metric("Under 120 hrs",            len(under_120), help="No credit earned yet")
+    k3.metric("120–399 hrs",              len(mid_range), help="Partial credit")
+    k4.metric("400+ hrs",                 len(maxed_out), help="Full credit")
 
     st.divider()
 
-    st.markdown("#### ⚠️ At Risk — Under 120 Hours (No Credit Yet)")
+    st.markdown("#### At Risk — Under 120 Hours (No Credit Yet)")
     st.caption("These employees are WOTC eligible but haven't worked enough hours to earn any credit. Prioritize scheduling them.")
 
     if under_120.empty:
@@ -353,23 +351,23 @@ with tab_wotc:
             labels={"total_hours": "Hours Worked", "employee": "", "wotc_category": "WOTC Category"},
             color_discrete_sequence=px.colors.qualitative.Safe,
         )
-        fig1.add_vline(x=120, line_dash="dash", line_color="#E11D48", annotation_text="120 hr minimum", annotation_position="top right")
+        fig1.add_vline(x=120, line_dash="dash", line_color="#4B5563", annotation_text="120 hr minimum", annotation_position="top right")
         fig1.update_layout(
             template="simple_white",
-            font=dict(family="Inter, system-ui", size=12, color="#374151"),
-            margin=dict(l=10, r=40, t=50, b=10),
-            yaxis=dict(autorange="reversed", type='category'),
-            height=max(300, len(under_120.head(30)) * 28),
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0, title=None),
+            font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+            margin=dict(l=140, r=40, t=50, b=100),
+            yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
+            height=max(400, len(under_120.head(30)) * 36),
+            legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="left", x=0, title=None),
         )
-        fig1.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.6)
+        fig1.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
         fig1.update_xaxes(showgrid=False, range=[0, 140], visible=False)
         fig1.update_yaxes(showgrid=False, zeroline=False)
         st.plotly_chart(fig1, use_container_width=True, config={'displayModeBar': False})
 
     st.divider()
 
-    st.markdown("#### 🔶 In Progress — 120 to 399 Hours (Partial Credit)")
+    st.markdown("#### In Progress — 120 to 399 Hours (Partial Credit)")
     st.caption("These employees have earned partial credit. Getting them to 400 hours unlocks the full credit amount.")
 
     if mid_range.empty:
@@ -383,13 +381,13 @@ with tab_wotc:
         fig2.add_vline(x=400, line_dash="dash", line_color="#0D9488", annotation_text="400 hr full credit", annotation_position="top right")
         fig2.update_layout(
             template="simple_white",
-            font=dict(family="Inter, system-ui", size=12, color="#374151"),
-            margin=dict(l=10, r=40, t=50, b=10),
-            yaxis=dict(autorange="reversed", type='category'),
-            height=max(300, len(mid_range) * 28),
-            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0, title=None),
+            font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+            margin=dict(l=140, r=40, t=50, b=100),
+            yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
+            height=max(400, len(mid_range) * 36),
+            legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="left", x=0, title=None),
         )
-        fig2.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.6)
+        fig2.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
         fig2.update_xaxes(showgrid=False, range=[0, 440], visible=False)
         fig2.update_yaxes(showgrid=False, zeroline=False)
         st.plotly_chart(fig2, use_container_width=True, config={'displayModeBar': False})
