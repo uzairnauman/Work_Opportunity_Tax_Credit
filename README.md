@@ -1,8 +1,10 @@
-# HR Analytics & WOTC Tracking Project
+# HR Analytics & WOTC Tracking Project (ONGOING)
 
 This is an ongoing data engineering project designed to help organizations track employees eligible for the Work Opportunity Tax Credit (WOTC) and monitor their progress toward the 400-hour threshold.
 
 The project demonstrates an end-to-end HR analytics workflow, from synthetic data generation to data modeling and dashboard-ready outputs.
+
+# App Link: https://uzairnauman-workopportunitytaxcredit.streamlit.app/
 
 ## Project Overview
 
