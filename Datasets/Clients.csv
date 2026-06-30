@@ -1,0 +1,43 @@
+client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,care_type,required_position,status,start_of_care_date,end_of_care_date,weekly_authorized_hours,emergency_contact,emergency_contact_phone
+1,Shawn,Larson,5729 Alvarez Pines Suite 522,Hughesshire,VT,83162,5507472134,Private Pay,Companion Care,CG,Active,2026-07-01,,40,Logan Cannon,+1-929-373-9703x47476
+2,Angela,Chavez,9901 Lauren Dale Suite 163,New Katelynchester,MP,59813,+1-751-925-2080x34714,Medicare,Personal Care,CNA,Active,2026-07-01,,6,Maureen Rodriguez,5928014075
+3,Eric,Manning,085 Torres Walks,Johnland,WV,77387,+1-274-811-1602,VA Benefits,Personal Care,CG,Active,2026-07-01,,40,Joshua King,461.526.6111x6398
+4,Thomas,Smith,104 Armstrong Knoll Suite 404,Johnsonmouth,NJ,89259,001-727-512-3174x3399,Medicaid,Companion Care,CG,Active,2026-07-01,,20,Erik James,643.819.4380x25341
+5,Jennifer,Cooper,027 White Meadows,Kathleenton,MH,33004,+1-808-746-7911x2943,VA Benefits,Companion Care,CG,Active,2026-07-01,,40,Brian Nash,001-377-323-8822
+6,Wayne,Owen,094 Natalie Cape,Colemanbury,CA,06961,001-870-379-4255x41820,LTC Insurance,Respite Care,LPN,Active,2026-07-01,,10,Eddie Simpson,(966)794-8552
+7,Steven,Holland,9345 Vanessa Hills,Port Megantown,SD,23639,5083735630,Medicare,Skilled Nursing,CHHA,Active,2026-07-01,,6,Brittany Fox,371-740-9307
+8,Kayla,Hall,738 Dana Vista Apt. 140,North Leslie,DE,63803,609.851.1572x6659,LTC Insurance,Homemaker Services,CNA,Discharged - Hospitalized,2026-07-01,2026-07-13,4,Nancy Johnson,283.664.6321
+9,Kimberly,Nicholson,352 Austin Place,West Robertmouth,NE,41144,(852)673-9280,Private Pay,Companion Care,CHHA,Discharged - Hospitalized,2026-07-01,2026-07-08,8,Mrs. Katherine Sanchez,001-227-525-8741x945
+10,Debbie,Castro,872 Daniel Knolls Suite 680,South Victorchester,MP,87043,619.621.6830x1136,Medicare,Companion Care,CNA,Active,2026-07-01,,10,Eric York,+1-200-317-0151x55966
+11,Michael,Macias,4883 Anthony Lane Suite 807,Port Kevinhaven,IN,53447,+1-563-246-5459x5642,LTC Insurance,Companion Care,LPN,Active,2026-07-01,,6,Laurie Dennis,(767)736-0984
+12,Laura,Anderson,583 Nathan Passage,Robertshire,TX,73113,655.946.8533,Medicaid,Skilled Nursing,RN,Active,2026-07-01,,6,Ryan Little,+1-739-601-7937x07131
+13,Albert,Diaz,1240 Garcia Extensions,Younghaven,CO,66010,(407)943-5433,Medicare,Respite Care,LPN,Discharged - Hospitalized,2026-07-01,2026-07-06,8,Olivia Mccormick,469.508.6798x4248
+14,Linda,Leblanc,3077 Cynthia Harbor,Cruzchester,NM,38192,611-455-8850,Private Pay,Respite Care,CNA,Active,2026-07-01,,6,Stephanie Carey,+1-420-746-6003x8700
+15,William,Zimmerman,92890 Brenda Tunnel Apt. 143,East Wesley,MH,06711,001-230-259-7940,Medicaid,Personal Care,CG,Active,2026-07-01,,40,Mallory Evans,3626361218
+16,Ashlee,Newman,281 Mario Falls Apt. 207,Gomezville,DC,99117,(901)459-9371x7008,Medicare,Skilled Nursing,CG,Active,2026-07-01,,28,Marc Jacobs,(596)892-7471
+17,Latoya,Hall,228 Christine Hollow,Lambertport,WV,86697,001-657-539-8271,VA Benefits,Personal Care,CHHA,Active,2026-07-01,,40,Gabriel Wallace,836.967.9858x5298
+18,Sara,Abbott,2740 Erika Manor,Bettyton,VA,15701,(364)975-8452x0748,LTC Insurance,Homemaker Services,CG,Discharged - Family Request,2026-07-01,2026-07-02,14,Bailey Williams,(588)286-3774x88159
+19,Jennifer,James,3105 Patricia Turnpike,Jerrybury,OK,67070,221.220.0031x391,Private Pay,Respite Care,CNA,Active,2026-07-01,,40,Laura Hopkins,(674)204-9315x7814
+20,William,Vazquez,225 Ryan Village Suite 331,East Michaelhaven,MT,08211,849-772-3935x3819,Private Pay,Skilled Nursing,LPN,Discharged - Completed,2026-07-01,2026-07-04,4,Michael Vasquez,216.234.5866
+21,Sandra,Mckenzie,466 Jocelyn Coves,Thomasville,SD,80471,256-212-3616x78953,Private Pay,Personal Care,CHHA,Active,2026-07-01,,4,Emily Henson,737.579.7673x8426
+22,Dwayne,Newton,687 Nicholas Pines Suite 716,Lake Michaelberg,CA,00849,(512)865-7217,LTC Insurance,Companion Care,CG,Active,2026-07-01,,10,Madison Carrillo,(350)389-6634
+23,Ryan,Holland,703 Douglas Mission,South William,MA,34347,963.948.5974x64469,Private Pay,Companion Care,LPN,Discharged - Completed,2026-07-01,2026-07-03,40,Bradley Pollard,001-531-330-9546x07743
+24,Teresa,Pena,877 Daniels Trace Apt. 134,Kyletown,NY,21770,202.403.3577x0535,Medicaid,Respite Care,LPN,Discharged - Deceased,2026-07-01,2026-07-15,14,Jacqueline Reese,748-259-2017
+25,Kimberly,Haynes,527 Lopez Garden Suite 259,North Jamieburgh,IA,98603,326.747.7392,Medicaid,Homemaker Services,CHHA,Active,2026-07-01,,20,James Villanueva,961-273-5554x84787
+26,Sydney,Patterson,420 Frank Hollow Suite 698,Port Jonathan,WY,73247,3685142604,Medicaid,Respite Care,LPN,Active,2026-07-02,,40,Troy Mckee,330-538-0324
+27,Luis,Johnson,78324 Lyons Spring,Deanport,NY,49176,8446449935,Medicaid,Skilled Nursing,CG,Discharged - Family Request,2026-07-02,2026-07-11,6,Lisa Garcia,8506883297
+28,Eric,Miller,4797 Ronald Expressway Suite 330,Kimfort,ID,95898,860-935-4356x414,LTC Insurance,Companion Care,CHHA,Active,2026-07-02,,14,Michael Tran,+1-752-907-3501x43602
+29,Samantha,Fields,3788 Potter Landing,East Marvin,MA,88514,701-260-8497x14189,LTC Insurance,Homemaker Services,CG,Active,2026-07-04,,20,Ann Gregory,964.511.8985x5586
+30,Kara,Reed,98639 Jeremiah Walk,Orozcomouth,VA,12204,(494)396-3288x82967,LTC Insurance,Companion Care,CNA,Active,2026-07-06,,40,Gabriel Johnson,335.399.2443x719
+31,Rebecca,Garner,712 Haynes Unions Apt. 932,Port Jacob,NH,55768,470-613-7892x2778,Medicare,Companion Care,CG,Discharged - Family Request,2026-07-06,2026-07-07,4,Charles Miller,+1-718-520-2249x06116
+32,John,Patrick,085 Jason Motorway,Lake Alanville,HI,91445,(641)517-6754,Medicare,Companion Care,CNA,Active,2026-07-06,,28,Brendan Morgan,5075461103
+33,Bryan,Roberts,081 Melissa Park,Goldenland,MS,20850,657.748.6776x49641,Medicare,Skilled Nursing,CHHA,Active,2026-07-08,,6,Sandra Wilson,719-915-9828
+34,Samuel,Forbes,43180 Winters Garden Suite 213,Port Sarahshire,HI,44419,464.973.5632,Private Pay,Companion Care,RN,Active,2026-07-10,,8,Brian Flores,2325725385
+35,Jeremy,Campbell,904 Elizabeth Garden,North Leslie,WV,13571,+1-895-626-0356,LTC Insurance,Respite Care,CNA,Active,2026-07-11,,28,Kelly Aguilar,+1-541-328-6272x381
+36,Taylor,Evans,860 Morales Skyway,New Nicholasview,LA,10122,2008488243,Private Pay,Skilled Nursing,LPN,Active,2026-07-12,,4,Tammy Dean,473-478-9094x989
+37,Kari,Hernandez,736 Darryl Inlet,Goodmantown,PW,56070,457-296-6059x0925,Medicare,Skilled Nursing,LPN,Active,2026-07-12,,10,Sarah Patterson,+1-406-611-1463
+38,Catherine,Garcia,927 Christopher Haven,Lake Melissabury,OH,91848,+1-912-423-5042x9883,LTC Insurance,Homemaker Services,LPN,Active,2026-07-12,,10,Emily Hendricks,821.781.1812
+39,Samantha,Baker,50504 Jeffrey Ferry,Stefanieshire,MH,06942,742-718-3306x9952,Medicare,Personal Care,CG,Active,2026-07-14,,28,Douglas Strickland,001-390-559-4959
+40,Dustin,Wilson,1302 Allen Circles Apt. 728,Julieberg,MI,74466,7642136844,LTC Insurance,Companion Care,RN,Active,2026-07-15,,28,Katie Harrison,+1-603-713-8432x649
+41,Mary,Horne,49419 Pamela Forks,Kellyfort,KY,21237,200.287.0029x16114,Medicare,Homemaker Services,RN,Active,2026-07-15,,10,Sean Drake,(355)990-4082
+42,Annette,Turner,1513 Kelley Flat Apt. 947,Cameronburgh,DE,57543,(217)373-2394,Medicaid,Companion Care,CNA,Active,2026-07-15,,4,Daniel Davidson,386-600-7206x669

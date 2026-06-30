@@ -1,0 +1,44 @@
+name: Daily Shift Scheduling Script
+
+on:
+  schedule:
+    - cron: '15 6 * * *'  # runs daily at 6:15 UTC, after the HR job at 6:00
+  workflow_dispatch:      # allows manual run
+
+jobs:
+  run-main-shifts:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.13'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install pandas faker
+
+    - name: Run main_shifts.py
+      run: python main_shifts.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "saecqwe"
+        git config --global user.email "abdullahsf99@gmail..com"
+
+        # Scheduling system writes its own files only -- never touches
+        # Dataset1.csv, which stays owned by main.yml / main.py
+        git add Datasets/Clients.csv Datasets/Shifts.csv
+
+        if git diff --staged --quiet; then
+          echo "No changes detected in Clients.csv / Shifts.csv"
+        else
+          git commit -m "Automated scheduling update: $(date)"
+          git push
+        fi
