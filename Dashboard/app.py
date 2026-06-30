@@ -70,7 +70,7 @@ if clients_exists:
     clients_df = pd.read_csv(BASE_DIR / "Datasets" / "Clients.csv")
 
 # -----------------------------
-# TABS (Icons Removed)
+# TABS
 # -----------------------------
 wotc_exists = (BASE_DIR / "Datasets" / "WOTC_Determinations.csv").exists()
 if wotc_exists:
@@ -256,10 +256,12 @@ with tab_shifts:
         st.dataframe(display, use_container_width=True, height=440)
 
     with chart_col:
-        top_n = scoreboard.head(20)
+        # Row layout row limit control
+        max_rows_scoreboard = st.slider("Rows to Display", min_value=5, max_value=30, value=15, key="sb_slider")
+        top_n = scoreboard.head(max_rows_scoreboard)
         fig = px.bar(
             top_n, x="hours", y="employee", color="position", orientation="h", text="hours",
-            title=f"Hours Worked by Employee · {period_label} (Top 20)",
+            title=f"Hours Worked by Employee (Top {max_rows_scoreboard})",
             labels={"hours": "Hours Worked", "employee": "", "position": "Position"},
             color_discrete_sequence=MODERN_PALETTE
         )
@@ -267,9 +269,10 @@ with tab_shifts:
             template="simple_white",
             font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
             title_font=dict(size=16, weight="bold", color="#111827"),
-            margin=dict(l=120, r=40, t=60, b=80),
+            margin=dict(l=140, r=40, t=60, b=80),
             yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
-            legend=dict(orientation="h", yanchor="top", y=-0.15, xanchor="left", x=0, title=None)
+            legend=dict(orientation="h", yanchor="top", y=-0.15, xanchor="left", x=0, title=None),
+            height=max(350, len(top_n) * 32)
         )
         fig.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
         fig.update_xaxes(showgrid=False, visible=False)
@@ -340,14 +343,18 @@ with tab_wotc:
 
     st.divider()
 
+    # Shared slider configuration tool for dynamic layout control
+    max_rows_wotc = st.slider("Maximum Employees to Display", min_value=5, max_value=30, value=12, key="wotc_slider")
+
     st.markdown("#### At Risk — Under 120 Hours (No Credit Yet)")
     st.caption("These employees are WOTC eligible but haven't worked enough hours to earn any credit. Prioritize scheduling them.")
 
     if under_120.empty:
         st.success("All eligible employees have cleared 120 hours.")
     else:
+        top_under_120 = under_120.head(max_rows_wotc)
         fig1 = px.bar(
-            under_120.head(30), x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
+            top_under_120, x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
             labels={"total_hours": "Hours Worked", "employee": "", "wotc_category": "WOTC Category"},
             color_discrete_sequence=px.colors.qualitative.Safe,
         )
@@ -357,7 +364,7 @@ with tab_wotc:
             font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
             margin=dict(l=140, r=40, t=50, b=100),
             yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
-            height=max(400, len(under_120.head(30)) * 36),
+            height=max(350, len(top_under_120) * 32),
             legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="left", x=0, title=None),
         )
         fig1.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
@@ -373,8 +380,9 @@ with tab_wotc:
     if mid_range.empty:
         st.info("No eligible employees in the 120–399 hour range yet.")
     else:
+        top_mid_range = mid_range.head(max_rows_wotc)
         fig2 = px.bar(
-            mid_range, x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
+            top_mid_range, x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
             labels={"total_hours": "Hours Worked", "employee": "", "wotc_category": "WOTC Category"},
             color_discrete_sequence=px.colors.qualitative.Pastel,
         )
@@ -384,7 +392,7 @@ with tab_wotc:
             font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
             margin=dict(l=140, r=40, t=50, b=100),
             yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
-            height=max(400, len(mid_range) * 36),
+            height=max(350, len(top_mid_range) * 32),
             legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="left", x=0, title=None),
         )
         fig2.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
@@ -393,12 +401,31 @@ with tab_wotc:
         st.plotly_chart(fig2, use_container_width=True, config={'displayModeBar': False})
 
     st.divider()
-    st.markdown("**Eligible Employees by WOTC Category**")
+    
+    # ----------------------------------------------------------
+    # REWRITTEN: WOTC CATEGORY BREAKDOWN VISUALIZATION
+    # ----------------------------------------------------------
+    st.markdown("#### Eligible Employees by WOTC Category")
     cat_summary = (
         tracking.groupby("wotc_category")
         .agg(employees=("employee_id", "count"), avg_hours=("total_hours", "mean"))
         .reset_index().sort_values("employees", ascending=False)
     )
     cat_summary.columns = ["WOTC Category", "Employees", "Avg Hours"]
-    cat_summary["Avg Hours"] = cat_summary["Avg Hours"].map(lambda x: f"{x:.1f}")
-    st.dataframe(cat_summary, use_container_width=True, hide_index=True)
+    
+    fig_cat = px.bar(
+        cat_summary, x="Employees", y="WOTC Category", orientation="h", text="Employees",
+        color="WOTC Category", color_discrete_sequence=px.colors.qualitative.Safe
+    )
+    fig_cat.update_layout(
+        template="simple_white",
+        font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+        showlegend=False,
+        margin=dict(l=240, r=40, t=20, b=20),
+        height=max(280, len(cat_summary) * 35),
+        yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14))
+    )
+    fig_cat.update_traces(textposition="outside", marker_line_width=0, width=0.5)
+    fig_cat.update_xaxes(showgrid=False, visible=False)
+    fig_cat.update_yaxes(showgrid=False, zeroline=False)
+    st.plotly_chart(fig_cat, use_container_width=True, config={'displayModeBar': False})
