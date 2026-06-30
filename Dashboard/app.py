@@ -369,4 +369,73 @@ with tab_wotc:
             template="simple_white",
             font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
             margin=dict(l=140, r=40, t=50, b=120),
-            yaxis=dict(autorange="reversed", type='category', tick
+            yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
+            height=max(400, len(top_under_120) * 36), 
+            legend=dict(orientation="h", yanchor="top", y=-0.05, xanchor="left", x=0, title=None),
+            hoverlabel=dict(font_size=14, font_family="Inter")
+        )
+        fig1.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
+        fig1.update_xaxes(showgrid=False, range=[0, 140], visible=False)
+        fig1.update_yaxes(showgrid=False, zeroline=False)
+        st.plotly_chart(fig1, use_container_width=True, config={'displayModeBar': False})
+
+    st.divider()
+
+    st.markdown("#### In Progress — 120 to 399 Hours (Partial Credit)")
+    st.caption("These employees have earned partial credit. Getting them to 400 hours unlocks the full credit amount.")
+
+    if mid_range.empty:
+        st.info("No eligible employees in the 120–399 hour range yet.")
+    else:
+        top_mid_range = mid_range.head(max_display_records)
+        fig2 = px.bar(
+            top_mid_range, x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
+            title=f"Top {len(top_mid_range)} Employees in Partial Credit Range",
+            labels={"total_hours": "Hours Worked", "employee": "", "wotc_category": "WOTC Category"},
+            hover_data={"employee": True, "total_hours": True, "wotc_category": True},
+            color_discrete_sequence=px.colors.qualitative.Pastel,
+        )
+        fig2.add_vline(x=400, line_dash="dash", line_color="#0D9488", annotation_text="400 hr full credit", annotation_position="top right")
+        fig2.update_layout(
+            template="simple_white",
+            font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+            margin=dict(l=140, r=40, t=50, b=120),
+            yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
+            height=max(400, len(top_mid_range) * 36),
+            legend=dict(orientation="h", yanchor="top", y=-0.05, xanchor="left", x=0, title=None),
+            hoverlabel=dict(font_size=14, font_family="Inter")
+        )
+        fig2.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
+        fig2.update_xaxes(showgrid=False, range=[0, 440], visible=False)
+        fig2.update_yaxes(showgrid=False, zeroline=False)
+        st.plotly_chart(fig2, use_container_width=True, config={'displayModeBar': False})
+
+    st.divider()
+    
+    # WOTC Category Breakdown Chart
+    st.markdown("#### Eligible Employees by WOTC Category")
+    cat_summary = (
+        tracking.groupby("wotc_category")
+        .agg(employees=("employee_id", "count"), avg_hours=("total_hours", "mean"))
+        .reset_index().sort_values("employees", ascending=False)
+    )
+    cat_summary.columns = ["WOTC Category", "Employees", "Avg Hours"]
+    
+    fig_cat = px.bar(
+        cat_summary, x="Employees", y="WOTC Category", orientation="h", text="Employees",
+        color="WOTC Category", color_discrete_sequence=px.colors.qualitative.Safe,
+        hover_data={"WOTC Category": True, "Employees": True, "Avg Hours": ":.1f"}
+    )
+    fig_cat.update_layout(
+        template="simple_white",
+        font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+        showlegend=False,
+        margin=dict(l=240, r=40, t=20, b=20),
+        height=max(280, len(cat_summary) * 35),
+        yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
+        hoverlabel=dict(font_size=14, font_family="Inter")
+    )
+    fig_cat.update_traces(textposition="outside", marker_line_width=0, width=0.5)
+    fig_cat.update_xaxes(showgrid=False, visible=False)
+    fig_cat.update_yaxes(showgrid=False, zeroline=False)
+    st.plotly_chart(fig_cat, use_container_width=True, config={'displayModeBar': False})
