@@ -262,7 +262,7 @@ with tab_shifts:
             top_n, x="hours", y="employee", color="position", orientation="h", text="hours",
             title=f"Hours Worked by Employee · {period_label} (Top 20)",
             labels={"hours": "Hours Worked", "employee": "", "position": "Position"},
-            color_discrete_sequence=px.colors.qualitative.Muted
+            color_discrete_sequence=px.colors.qualitative.Safe
         )
         fig.update_layout(
             template="simple_white",
