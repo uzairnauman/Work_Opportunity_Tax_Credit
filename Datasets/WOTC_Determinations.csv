@@ -1,0 +1,535 @@
+employee_id,hire_date,submission_date,wotc_category,eligible
+4,2025-01-17,2025-01-17,Not Eligible,False
+16,2025-01-13,2025-01-17,Not Eligible,False
+22,2025-01-12,2025-01-17,Designated Community Resident,True
+24,2025-02-06,2025-02-07,TANF Recipient,True
+30,2025-02-05,2025-02-07,Long-Term Unemployment Recipient,True
+11,2025-02-09,2025-02-14,Not Eligible,False
+12,2025-03-05,2025-03-07,Not Eligible,False
+18,2025-03-09,2025-03-14,Not Eligible,False
+20,2025-03-11,2025-03-14,Ex-Felon,True
+28,2025-03-26,2025-03-28,Not Eligible,False
+23,2025-04-10,2025-04-11,Ex-Felon,True
+9,2025-05-22,2025-05-23,Not Eligible,False
+21,2025-05-27,2025-05-30,Not Eligible,False
+5,2025-06-13,2025-06-13,Long-Term Unemployment Recipient,True
+13,2025-06-08,2025-06-13,Not Eligible,False
+8,2025-07-13,2025-07-18,Not Eligible,False
+19,2025-07-24,2025-07-25,TANF Recipient,True
+2,2025-09-03,2025-09-05,Designated Community Resident,True
+26,2025-09-03,2025-09-05,Long-Term TANF Recipient,True
+7,2025-09-18,2025-09-19,Not Eligible,False
+25,2025-09-13,2025-09-19,Not Eligible,False
+1,2025-10-04,2025-10-10,Not Eligible,False
+27,2025-10-12,2025-10-17,TANF Recipient,True
+29,2025-10-16,2025-10-17,Long-Term Unemployment Recipient,True
+17,2025-10-30,2025-10-31,Long-Term Unemployment Recipient,True
+10,2025-11-16,2025-11-21,Long-Term Unemployment Recipient,True
+15,2025-11-26,2025-11-28,Vocational Rehabilitation Referral,True
+14,2025-12-11,2025-12-12,Not Eligible,False
+6,2025-12-19,2025-12-19,SSI Recipient,True
+31,2025-12-14,2025-12-19,Not Eligible,False
+32,2025-12-14,2025-12-19,Not Eligible,False
+33,2025-12-14,2025-12-19,Long-Term Unemployment Recipient,True
+34,2025-12-14,2025-12-19,Long-Term Unemployment Recipient,True
+35,2025-12-15,2025-12-19,Long-Term Unemployment Recipient,True
+36,2025-12-15,2025-12-19,Not Eligible,False
+37,2025-12-15,2025-12-19,TANF Recipient,True
+38,2025-12-15,2025-12-19,Long-Term Unemployment Recipient,True
+39,2025-12-15,2025-12-19,Not Eligible,False
+40,2025-12-16,2025-12-19,Not Eligible,False
+41,2025-12-16,2025-12-19,Not Eligible,False
+42,2025-12-16,2025-12-19,Long-Term Unemployment Recipient,True
+43,2025-12-17,2025-12-19,Not Eligible,False
+44,2025-12-17,2025-12-19,Not Eligible,False
+45,2025-12-17,2025-12-19,Not Eligible,False
+46,2025-12-17,2025-12-19,Veteran - Service-Connected Disability,True
+47,2025-12-17,2025-12-19,Not Eligible,False
+48,2025-12-17,2025-12-19,Long-Term Unemployment Recipient,True
+49,2025-12-17,2025-12-19,Not Eligible,False
+50,2025-12-17,2025-12-19,Not Eligible,False
+51,2025-12-17,2025-12-19,Not Eligible,False
+3,2025-12-24,2025-12-26,Not Eligible,False
+52,2025-12-20,2025-12-26,Vocational Rehabilitation Referral,True
+53,2025-12-20,2025-12-26,Long-Term Unemployment Recipient,True
+54,2025-12-20,2025-12-26,Ex-Felon,True
+55,2025-12-20,2025-12-26,Not Eligible,False
+56,2025-12-20,2025-12-26,Vocational Rehabilitation Referral,True
+57,2025-12-20,2025-12-26,Not Eligible,False
+58,2025-12-20,2025-12-26,Long-Term Unemployment Recipient,True
+59,2025-12-20,2025-12-26,Not Eligible,False
+60,2025-12-21,2025-12-26,Not Eligible,False
+61,2025-12-22,2025-12-26,Not Eligible,False
+62,2025-12-22,2025-12-26,Ex-Felon,True
+63,2025-12-23,2025-12-26,Not Eligible,False
+64,2025-12-23,2025-12-26,Not Eligible,False
+65,2025-12-24,2025-12-26,Not Eligible,False
+66,2025-12-24,2025-12-26,Not Eligible,False
+67,2025-12-24,2025-12-26,Not Eligible,False
+68,2025-12-24,2025-12-26,Long-Term TANF Recipient,True
+69,2025-12-25,2025-12-26,TANF Recipient,True
+70,2025-12-25,2025-12-26,Ex-Felon,True
+71,2025-12-25,2025-12-26,Not Eligible,False
+72,2025-12-25,2025-12-26,Not Eligible,False
+73,2025-12-26,2025-12-26,Not Eligible,False
+74,2025-12-26,2025-12-26,Veteran - Unemployed,True
+75,2025-12-26,2025-12-26,Not Eligible,False
+76,2025-12-26,2025-12-26,Not Eligible,False
+77,2025-12-27,2026-01-02,SSI Recipient,True
+78,2025-12-28,2026-01-02,SSI Recipient,True
+79,2025-12-28,2026-01-02,Not Eligible,False
+80,2025-12-29,2026-01-02,Not Eligible,False
+81,2025-12-29,2026-01-02,Not Eligible,False
+82,2025-12-29,2026-01-02,Not Eligible,False
+83,2025-12-29,2026-01-02,Not Eligible,False
+84,2025-12-30,2026-01-02,Long-Term TANF Recipient,True
+85,2025-12-30,2026-01-02,Not Eligible,False
+86,2025-12-30,2026-01-02,SSI Recipient,True
+87,2025-12-30,2026-01-02,Not Eligible,False
+88,2025-12-31,2026-01-02,Not Eligible,False
+89,2025-12-31,2026-01-02,Not Eligible,False
+90,2026-01-01,2026-01-02,Not Eligible,False
+91,2026-01-01,2026-01-02,Not Eligible,False
+92,2026-01-02,2026-01-02,Not Eligible,False
+93,2026-01-03,2026-01-09,Ex-Felon,True
+94,2026-01-03,2026-01-09,Long-Term Unemployment Recipient,True
+95,2026-01-04,2026-01-09,SSI Recipient,True
+96,2026-01-04,2026-01-09,Not Eligible,False
+97,2026-01-04,2026-01-09,Not Eligible,False
+98,2026-01-05,2026-01-09,Not Eligible,False
+99,2026-01-05,2026-01-09,Not Eligible,False
+100,2026-01-06,2026-01-09,Not Eligible,False
+101,2026-01-06,2026-01-09,Long-Term Unemployment Recipient,True
+102,2026-01-07,2026-01-09,Not Eligible,False
+103,2026-01-07,2026-01-09,Vocational Rehabilitation Referral,True
+104,2026-01-07,2026-01-09,Designated Community Resident,True
+105,2026-01-07,2026-01-09,Veteran - Service-Connected Disability,True
+106,2026-01-08,2026-01-09,TANF Recipient,True
+107,2026-01-09,2026-01-09,Not Eligible,False
+108,2026-01-09,2026-01-09,Not Eligible,False
+109,2026-01-10,2026-01-16,Not Eligible,False
+110,2026-01-10,2026-01-16,Designated Community Resident,True
+111,2026-01-10,2026-01-16,Veteran - Unemployed,True
+112,2026-01-11,2026-01-16,Not Eligible,False
+113,2026-01-11,2026-01-16,Not Eligible,False
+114,2026-01-11,2026-01-16,Not Eligible,False
+115,2026-01-12,2026-01-16,Ex-Felon,True
+116,2026-01-13,2026-01-16,Veteran - Unemployed,True
+117,2026-01-13,2026-01-16,Not Eligible,False
+118,2026-01-13,2026-01-16,TANF Recipient,True
+119,2026-01-14,2026-01-16,Ex-Felon,True
+120,2026-01-15,2026-01-16,Not Eligible,False
+121,2026-01-15,2026-01-16,Not Eligible,False
+122,2026-01-15,2026-01-16,Not Eligible,False
+123,2026-01-15,2026-01-16,Not Eligible,False
+124,2026-01-16,2026-01-16,Vocational Rehabilitation Referral,True
+125,2026-01-17,2026-01-23,Ex-Felon,True
+126,2026-01-17,2026-01-23,Long-Term Unemployment Recipient,True
+127,2026-01-17,2026-01-23,Not Eligible,False
+128,2026-01-18,2026-01-23,Designated Community Resident,True
+129,2026-01-19,2026-01-23,Long-Term Unemployment Recipient,True
+130,2026-01-19,2026-01-23,Not Eligible,False
+131,2026-01-19,2026-01-23,Not Eligible,False
+132,2026-01-19,2026-01-23,Not Eligible,False
+133,2026-01-20,2026-01-23,Not Eligible,False
+134,2026-01-20,2026-01-23,Not Eligible,False
+135,2026-01-20,2026-01-23,TANF Recipient,True
+136,2026-01-21,2026-01-23,Long-Term Unemployment Recipient,True
+137,2026-01-21,2026-01-23,Not Eligible,False
+138,2026-01-21,2026-01-23,Not Eligible,False
+139,2026-01-21,2026-01-23,Not Eligible,False
+140,2026-01-22,2026-01-23,SSI Recipient,True
+141,2026-01-22,2026-01-23,Not Eligible,False
+142,2026-01-22,2026-01-23,Long-Term Unemployment Recipient,True
+143,2026-01-22,2026-01-23,Ex-Felon,True
+144,2026-01-23,2026-01-23,Not Eligible,False
+145,2026-01-23,2026-01-23,Veteran - Service-Connected Disability,True
+146,2026-01-23,2026-01-23,Not Eligible,False
+147,2026-01-24,2026-01-30,Long-Term Unemployment Recipient,True
+148,2026-01-24,2026-01-30,Not Eligible,False
+149,2026-01-25,2026-01-30,Not Eligible,False
+150,2026-01-26,2026-01-30,Veteran - Unemployed,True
+151,2026-01-26,2026-01-30,TANF Recipient,True
+152,2026-01-26,2026-01-30,Vocational Rehabilitation Referral,True
+153,2026-01-26,2026-01-30,Summer Youth Employee,True
+154,2026-01-27,2026-01-30,Not Eligible,False
+155,2026-01-27,2026-01-30,Long-Term Unemployment Recipient,True
+156,2026-01-28,2026-01-30,Not Eligible,False
+157,2026-01-28,2026-01-30,Long-Term Unemployment Recipient,True
+158,2026-01-28,2026-01-30,TANF Recipient,True
+159,2026-01-28,2026-01-30,Not Eligible,False
+160,2026-01-29,2026-01-30,Not Eligible,False
+161,2026-01-30,2026-01-30,Not Eligible,False
+162,2026-01-30,2026-01-30,Not Eligible,False
+163,2026-01-31,2026-02-06,Long-Term Unemployment Recipient,True
+164,2026-02-01,2026-02-06,Not Eligible,False
+165,2026-02-01,2026-02-06,Not Eligible,False
+166,2026-02-01,2026-02-06,Not Eligible,False
+167,2026-02-01,2026-02-06,Not Eligible,False
+168,2026-02-02,2026-02-06,Long-Term TANF Recipient,True
+169,2026-02-03,2026-02-06,Not Eligible,False
+170,2026-02-03,2026-02-06,SSI Recipient,True
+171,2026-02-04,2026-02-06,SSI Recipient,True
+172,2026-02-05,2026-02-06,Not Eligible,False
+173,2026-02-06,2026-02-06,Not Eligible,False
+174,2026-02-06,2026-02-06,SSI Recipient,True
+175,2026-02-06,2026-02-06,Not Eligible,False
+176,2026-02-07,2026-02-13,Not Eligible,False
+177,2026-02-07,2026-02-13,Vocational Rehabilitation Referral,True
+178,2026-02-07,2026-02-13,Designated Community Resident,True
+179,2026-02-07,2026-02-13,Ex-Felon,True
+180,2026-02-08,2026-02-13,Not Eligible,False
+181,2026-02-08,2026-02-13,Long-Term Unemployment Recipient,True
+182,2026-02-09,2026-02-13,Not Eligible,False
+183,2026-02-09,2026-02-13,Not Eligible,False
+184,2026-02-10,2026-02-13,Not Eligible,False
+185,2026-02-11,2026-02-13,Ex-Felon,True
+186,2026-02-11,2026-02-13,Not Eligible,False
+187,2026-02-11,2026-02-13,Not Eligible,False
+188,2026-02-11,2026-02-13,SSI Recipient,True
+189,2026-02-12,2026-02-13,Not Eligible,False
+190,2026-02-13,2026-02-13,Not Eligible,False
+191,2026-02-13,2026-02-13,Long-Term TANF Recipient,True
+192,2026-02-13,2026-02-13,Not Eligible,False
+193,2026-02-13,2026-02-13,Long-Term Unemployment Recipient,True
+194,2026-02-14,2026-02-20,SSI Recipient,True
+195,2026-02-15,2026-02-20,Long-Term Unemployment Recipient,True
+196,2026-02-16,2026-02-20,TANF Recipient,True
+197,2026-02-16,2026-02-20,Long-Term Unemployment Recipient,True
+198,2026-02-16,2026-02-20,Not Eligible,False
+199,2026-02-17,2026-02-20,Not Eligible,False
+200,2026-02-18,2026-02-20,Not Eligible,False
+201,2026-02-19,2026-02-20,Not Eligible,False
+202,2026-02-19,2026-02-20,SSI Recipient,True
+203,2026-02-19,2026-02-20,Not Eligible,False
+204,2026-02-19,2026-02-20,Not Eligible,False
+205,2026-02-20,2026-02-20,Not Eligible,False
+206,2026-02-21,2026-02-27,Not Eligible,False
+207,2026-02-21,2026-02-27,Not Eligible,False
+208,2026-02-21,2026-02-27,Not Eligible,False
+209,2026-02-22,2026-02-27,Long-Term Unemployment Recipient,True
+210,2026-02-22,2026-02-27,Not Eligible,False
+211,2026-02-23,2026-02-27,Long-Term Unemployment Recipient,True
+212,2026-02-24,2026-02-27,Not Eligible,False
+213,2026-02-24,2026-02-27,Not Eligible,False
+214,2026-02-25,2026-02-27,Not Eligible,False
+215,2026-02-26,2026-02-27,Not Eligible,False
+216,2026-02-26,2026-02-27,Veteran - Unemployed,True
+217,2026-02-27,2026-02-27,Vocational Rehabilitation Referral,True
+218,2026-02-27,2026-02-27,Not Eligible,False
+219,2026-02-28,2026-03-06,TANF Recipient,True
+220,2026-02-28,2026-03-06,Long-Term TANF Recipient,True
+221,2026-02-28,2026-03-06,Not Eligible,False
+222,2026-02-28,2026-03-06,SSI Recipient,True
+223,2026-03-01,2026-03-06,Not Eligible,False
+224,2026-03-01,2026-03-06,Not Eligible,False
+225,2026-03-02,2026-03-06,TANF Recipient,True
+226,2026-03-03,2026-03-06,Not Eligible,False
+227,2026-03-04,2026-03-06,Not Eligible,False
+228,2026-03-05,2026-03-06,Ex-Felon,True
+229,2026-03-05,2026-03-06,Long-Term Unemployment Recipient,True
+230,2026-03-05,2026-03-06,TANF Recipient,True
+231,2026-03-05,2026-03-06,Veteran - Unemployed,True
+232,2026-03-06,2026-03-06,Not Eligible,False
+233,2026-03-06,2026-03-06,TANF Recipient,True
+234,2026-03-07,2026-03-13,Not Eligible,False
+235,2026-03-07,2026-03-13,Not Eligible,False
+236,2026-03-07,2026-03-13,TANF Recipient,True
+237,2026-03-08,2026-03-13,Long-Term Unemployment Recipient,True
+238,2026-03-09,2026-03-13,SSI Recipient,True
+239,2026-03-10,2026-03-13,Not Eligible,False
+240,2026-03-11,2026-03-13,Veteran - Service-Connected Disability,True
+241,2026-03-12,2026-03-13,TANF Recipient,True
+242,2026-03-12,2026-03-13,Not Eligible,False
+243,2026-03-13,2026-03-13,Vocational Rehabilitation Referral,True
+244,2026-03-13,2026-03-13,Designated Community Resident,True
+245,2026-03-13,2026-03-13,Not Eligible,False
+246,2026-03-14,2026-03-20,Ex-Felon,True
+247,2026-03-14,2026-03-20,Not Eligible,False
+248,2026-03-14,2026-03-20,Veteran - Unemployed,True
+249,2026-03-14,2026-03-20,Not Eligible,False
+250,2026-03-15,2026-03-20,Not Eligible,False
+251,2026-03-15,2026-03-20,Not Eligible,False
+252,2026-03-16,2026-03-20,SSI Recipient,True
+253,2026-03-16,2026-03-20,Long-Term Unemployment Recipient,True
+254,2026-03-16,2026-03-20,Not Eligible,False
+255,2026-03-17,2026-03-20,Not Eligible,False
+256,2026-03-17,2026-03-20,Not Eligible,False
+257,2026-03-17,2026-03-20,Not Eligible,False
+258,2026-03-17,2026-03-20,TANF Recipient,True
+259,2026-03-18,2026-03-20,Not Eligible,False
+260,2026-03-19,2026-03-20,Not Eligible,False
+261,2026-03-20,2026-03-20,Not Eligible,False
+262,2026-03-20,2026-03-20,Not Eligible,False
+263,2026-03-20,2026-03-20,Long-Term TANF Recipient,True
+264,2026-03-21,2026-03-27,Long-Term Unemployment Recipient,True
+265,2026-03-22,2026-03-27,SSI Recipient,True
+266,2026-03-23,2026-03-27,Vocational Rehabilitation Referral,True
+267,2026-03-23,2026-03-27,Not Eligible,False
+268,2026-03-24,2026-03-27,Long-Term TANF Recipient,True
+269,2026-03-24,2026-03-27,Not Eligible,False
+270,2026-03-24,2026-03-27,Veteran - Unemployed,True
+271,2026-03-24,2026-03-27,Not Eligible,False
+272,2026-03-25,2026-03-27,Vocational Rehabilitation Referral,True
+273,2026-03-25,2026-03-27,Not Eligible,False
+274,2026-03-25,2026-03-27,Not Eligible,False
+275,2026-03-26,2026-03-27,Long-Term TANF Recipient,True
+276,2026-03-26,2026-03-27,Not Eligible,False
+277,2026-03-26,2026-03-27,Ex-Felon,True
+278,2026-03-27,2026-03-27,Ex-Felon,True
+279,2026-03-27,2026-03-27,Not Eligible,False
+280,2026-03-27,2026-03-27,Not Eligible,False
+281,2026-03-27,2026-03-27,Not Eligible,False
+282,2026-03-28,2026-04-03,TANF Recipient,True
+283,2026-03-29,2026-04-03,Long-Term TANF Recipient,True
+284,2026-03-29,2026-04-03,Not Eligible,False
+285,2026-03-29,2026-04-03,Long-Term Unemployment Recipient,True
+286,2026-03-29,2026-04-03,Not Eligible,False
+287,2026-03-30,2026-04-03,Long-Term Unemployment Recipient,True
+288,2026-03-30,2026-04-03,Designated Community Resident,True
+289,2026-03-30,2026-04-03,Veteran - Unemployed,True
+290,2026-03-30,2026-04-03,Long-Term Unemployment Recipient,True
+291,2026-03-31,2026-04-03,TANF Recipient,True
+292,2026-03-31,2026-04-03,SSI Recipient,True
+293,2026-03-31,2026-04-03,Not Eligible,False
+294,2026-04-01,2026-04-03,Not Eligible,False
+295,2026-04-01,2026-04-03,Veteran - Service-Connected Disability,True
+296,2026-04-02,2026-04-03,Not Eligible,False
+297,2026-04-02,2026-04-03,Long-Term Unemployment Recipient,True
+298,2026-04-03,2026-04-03,Not Eligible,False
+299,2026-04-03,2026-04-03,Not Eligible,False
+300,2026-04-04,2026-04-10,Long-Term Unemployment Recipient,True
+301,2026-04-04,2026-04-10,Not Eligible,False
+302,2026-04-04,2026-04-10,Vocational Rehabilitation Referral,True
+303,2026-04-05,2026-04-10,Not Eligible,False
+304,2026-04-05,2026-04-10,Not Eligible,False
+305,2026-04-05,2026-04-10,Not Eligible,False
+306,2026-04-06,2026-04-10,Not Eligible,False
+307,2026-04-07,2026-04-10,Long-Term Unemployment Recipient,True
+308,2026-04-07,2026-04-10,Not Eligible,False
+309,2026-04-08,2026-04-10,Not Eligible,False
+310,2026-04-08,2026-04-10,Long-Term Unemployment Recipient,True
+311,2026-04-08,2026-04-10,Veteran - Unemployed,True
+312,2026-04-09,2026-04-10,TANF Recipient,True
+313,2026-04-09,2026-04-10,Long-Term Unemployment Recipient,True
+314,2026-04-09,2026-04-10,Not Eligible,False
+315,2026-04-09,2026-04-10,Not Eligible,False
+316,2026-04-10,2026-04-10,Not Eligible,False
+317,2026-04-10,2026-04-10,Not Eligible,False
+318,2026-04-10,2026-04-10,TANF Recipient,True
+319,2026-04-10,2026-04-10,Not Eligible,False
+320,2026-04-11,2026-04-17,Not Eligible,False
+321,2026-04-11,2026-04-17,Not Eligible,False
+322,2026-04-11,2026-04-17,Veteran - Service-Connected Disability,True
+323,2026-04-12,2026-04-17,Long-Term TANF Recipient,True
+324,2026-04-12,2026-04-17,Long-Term Unemployment Recipient,True
+325,2026-04-12,2026-04-17,Long-Term Unemployment Recipient,True
+326,2026-04-13,2026-04-17,Not Eligible,False
+327,2026-04-13,2026-04-17,Veteran - Service-Connected Disability,True
+328,2026-04-13,2026-04-17,TANF Recipient,True
+329,2026-04-14,2026-04-17,Veteran - Unemployed,True
+330,2026-04-15,2026-04-17,Designated Community Resident,True
+331,2026-04-15,2026-04-17,Veteran - Unemployed,True
+332,2026-04-16,2026-04-17,Not Eligible,False
+333,2026-04-16,2026-04-17,Long-Term Unemployment Recipient,True
+334,2026-04-16,2026-04-17,Ex-Felon,True
+335,2026-04-16,2026-04-17,Not Eligible,False
+336,2026-04-17,2026-04-17,Not Eligible,False
+337,2026-04-17,2026-04-17,Not Eligible,False
+338,2026-04-18,2026-04-24,Not Eligible,False
+339,2026-04-18,2026-04-24,Not Eligible,False
+340,2026-04-18,2026-04-24,Not Eligible,False
+341,2026-04-18,2026-04-24,Long-Term Unemployment Recipient,True
+342,2026-04-19,2026-04-24,Not Eligible,False
+343,2026-04-19,2026-04-24,Not Eligible,False
+344,2026-04-19,2026-04-24,Not Eligible,False
+345,2026-04-20,2026-04-24,SSI Recipient,True
+346,2026-04-20,2026-04-24,Long-Term Unemployment Recipient,True
+347,2026-04-20,2026-04-24,Not Eligible,False
+348,2026-04-21,2026-04-24,Veteran - Service-Connected Disability,True
+349,2026-04-22,2026-04-24,Not Eligible,False
+350,2026-04-22,2026-04-24,Veteran - Service-Connected Disability,True
+351,2026-04-23,2026-04-24,Veteran - Unemployed,True
+352,2026-04-23,2026-04-24,Veteran - Service-Connected Disability,True
+353,2026-04-24,2026-04-24,Not Eligible,False
+354,2026-04-24,2026-04-24,Not Eligible,False
+355,2026-04-24,2026-04-24,Not Eligible,False
+356,2026-04-24,2026-04-24,TANF Recipient,True
+357,2026-04-25,2026-05-01,Not Eligible,False
+358,2026-04-26,2026-05-01,SSI Recipient,True
+359,2026-04-26,2026-05-01,Not Eligible,False
+360,2026-04-26,2026-05-01,Ex-Felon,True
+361,2026-04-27,2026-05-01,Ex-Felon,True
+362,2026-04-27,2026-05-01,SSI Recipient,True
+363,2026-04-27,2026-05-01,SSI Recipient,True
+364,2026-04-28,2026-05-01,SSI Recipient,True
+365,2026-04-29,2026-05-01,TANF Recipient,True
+366,2026-04-29,2026-05-01,Not Eligible,False
+367,2026-04-30,2026-05-01,Not Eligible,False
+368,2026-04-30,2026-05-01,Veteran - Service-Connected Disability,True
+369,2026-04-30,2026-05-01,SSI Recipient,True
+370,2026-05-01,2026-05-01,Not Eligible,False
+371,2026-05-01,2026-05-01,Not Eligible,False
+372,2026-05-01,2026-05-01,Not Eligible,False
+373,2026-05-01,2026-05-01,Not Eligible,False
+374,2026-05-02,2026-05-08,Not Eligible,False
+375,2026-05-02,2026-05-08,Not Eligible,False
+376,2026-05-03,2026-05-08,TANF Recipient,True
+377,2026-05-03,2026-05-08,Not Eligible,False
+378,2026-05-04,2026-05-08,Not Eligible,False
+379,2026-05-05,2026-05-08,Not Eligible,False
+380,2026-05-05,2026-05-08,Ex-Felon,True
+381,2026-05-05,2026-05-08,Not Eligible,False
+382,2026-05-05,2026-05-08,Not Eligible,False
+383,2026-05-07,2026-05-08,Not Eligible,False
+384,2026-05-07,2026-05-08,TANF Recipient,True
+385,2026-05-07,2026-05-08,Ex-Felon,True
+386,2026-05-07,2026-05-08,Long-Term Unemployment Recipient,True
+387,2026-05-08,2026-05-08,Not Eligible,False
+388,2026-05-08,2026-05-08,SSI Recipient,True
+389,2026-05-09,2026-05-15,TANF Recipient,True
+390,2026-05-09,2026-05-15,Long-Term Unemployment Recipient,True
+391,2026-05-09,2026-05-15,Not Eligible,False
+392,2026-05-10,2026-05-15,Long-Term Unemployment Recipient,True
+393,2026-05-11,2026-05-15,Not Eligible,False
+394,2026-05-11,2026-05-15,Vocational Rehabilitation Referral,True
+395,2026-05-11,2026-05-15,Not Eligible,False
+396,2026-05-11,2026-05-15,Not Eligible,False
+397,2026-05-12,2026-05-15,Not Eligible,False
+398,2026-05-12,2026-05-15,Designated Community Resident,True
+399,2026-05-12,2026-05-15,Not Eligible,False
+400,2026-05-12,2026-05-15,Not Eligible,False
+401,2026-05-13,2026-05-15,Not Eligible,False
+402,2026-05-13,2026-05-15,Veteran - Unemployed,True
+403,2026-05-13,2026-05-15,Not Eligible,False
+404,2026-05-14,2026-05-15,Not Eligible,False
+405,2026-05-14,2026-05-15,Not Eligible,False
+406,2026-05-14,2026-05-15,Not Eligible,False
+407,2026-05-14,2026-05-15,TANF Recipient,True
+408,2026-05-15,2026-05-15,SSI Recipient,True
+409,2026-05-15,2026-05-15,Veteran - Unemployed,True
+410,2026-05-15,2026-05-15,Not Eligible,False
+411,2026-05-16,2026-05-22,Not Eligible,False
+412,2026-05-17,2026-05-22,Not Eligible,False
+413,2026-05-18,2026-05-22,Veteran - Unemployed,True
+414,2026-05-19,2026-05-22,Not Eligible,False
+415,2026-05-19,2026-05-22,SSI Recipient,True
+416,2026-05-19,2026-05-22,Not Eligible,False
+417,2026-05-20,2026-05-22,Designated Community Resident,True
+418,2026-05-20,2026-05-22,Not Eligible,False
+419,2026-05-20,2026-05-22,Long-Term Unemployment Recipient,True
+420,2026-05-21,2026-05-22,Not Eligible,False
+421,2026-05-21,2026-05-22,TANF Recipient,True
+422,2026-05-21,2026-05-22,Not Eligible,False
+423,2026-05-21,2026-05-22,Not Eligible,False
+424,2026-05-22,2026-05-22,Long-Term Unemployment Recipient,True
+425,2026-05-22,2026-05-22,Not Eligible,False
+426,2026-05-23,2026-05-29,Not Eligible,False
+427,2026-05-23,2026-05-29,Not Eligible,False
+428,2026-05-23,2026-05-29,Not Eligible,False
+429,2026-05-24,2026-05-29,Long-Term Unemployment Recipient,True
+430,2026-05-25,2026-05-29,Not Eligible,False
+431,2026-05-25,2026-05-29,Vocational Rehabilitation Referral,True
+432,2026-05-25,2026-05-29,Long-Term Unemployment Recipient,True
+433,2026-05-26,2026-05-29,Not Eligible,False
+434,2026-05-26,2026-05-29,Not Eligible,False
+435,2026-05-26,2026-05-29,Summer Youth Employee,True
+436,2026-05-27,2026-05-29,Not Eligible,False
+437,2026-05-28,2026-05-29,Long-Term Unemployment Recipient,True
+438,2026-05-28,2026-05-29,Not Eligible,False
+439,2026-05-28,2026-05-29,Not Eligible,False
+440,2026-05-28,2026-05-29,Not Eligible,False
+441,2026-05-29,2026-05-29,Not Eligible,False
+442,2026-05-29,2026-05-29,Not Eligible,False
+443,2026-05-29,2026-05-29,Long-Term TANF Recipient,True
+444,2026-05-29,2026-05-29,Not Eligible,False
+445,2026-05-30,2026-06-05,Long-Term Unemployment Recipient,True
+446,2026-05-30,2026-06-05,SSI Recipient,True
+447,2026-05-31,2026-06-05,Not Eligible,False
+448,2026-06-01,2026-06-05,Not Eligible,False
+449,2026-06-01,2026-06-05,Not Eligible,False
+450,2026-06-01,2026-06-05,Not Eligible,False
+451,2026-06-02,2026-06-05,Not Eligible,False
+452,2026-06-02,2026-06-05,Not Eligible,False
+453,2026-06-03,2026-06-05,Not Eligible,False
+454,2026-06-04,2026-06-05,Not Eligible,False
+455,2026-06-04,2026-06-05,Ex-Felon,True
+456,2026-06-04,2026-06-05,Long-Term TANF Recipient,True
+457,2026-06-04,2026-06-05,Long-Term TANF Recipient,True
+458,2026-06-05,2026-06-05,Not Eligible,False
+459,2026-06-05,2026-06-05,Designated Community Resident,True
+460,2026-06-06,2026-06-12,Not Eligible,False
+461,2026-06-06,2026-06-12,Long-Term TANF Recipient,True
+462,2026-06-06,2026-06-12,Long-Term Unemployment Recipient,True
+463,2026-06-06,2026-06-12,Not Eligible,False
+464,2026-06-07,2026-06-12,Not Eligible,False
+465,2026-06-08,2026-06-12,Not Eligible,False
+466,2026-06-08,2026-06-12,Ex-Felon,True
+467,2026-06-08,2026-06-12,Not Eligible,False
+468,2026-06-09,2026-06-12,Summer Youth Employee,True
+469,2026-06-09,2026-06-12,Not Eligible,False
+470,2026-06-09,2026-06-12,Not Eligible,False
+471,2026-06-09,2026-06-12,Summer Youth Employee,True
+472,2026-06-10,2026-06-12,Veteran - Service-Connected Disability,True
+473,2026-06-10,2026-06-12,Not Eligible,False
+474,2026-06-10,2026-06-12,Not Eligible,False
+475,2026-06-10,2026-06-12,Vocational Rehabilitation Referral,True
+476,2026-06-11,2026-06-12,Not Eligible,False
+477,2026-06-12,2026-06-12,Long-Term Unemployment Recipient,True
+478,2026-06-12,2026-06-12,Vocational Rehabilitation Referral,True
+479,2026-06-12,2026-06-12,Ex-Felon,True
+480,2026-06-12,2026-06-12,Not Eligible,False
+481,2026-06-13,2026-06-19,TANF Recipient,True
+482,2026-06-13,2026-06-19,Long-Term Unemployment Recipient,True
+483,2026-06-14,2026-06-19,Long-Term Unemployment Recipient,True
+484,2026-06-14,2026-06-19,Long-Term Unemployment Recipient,True
+485,2026-06-15,2026-06-19,Not Eligible,False
+486,2026-06-16,2026-06-19,Not Eligible,False
+487,2026-06-16,2026-06-19,SSI Recipient,True
+488,2026-06-17,2026-06-19,Not Eligible,False
+489,2026-06-17,2026-06-19,Designated Community Resident,True
+490,2026-06-17,2026-06-19,Ex-Felon,True
+491,2026-06-17,2026-06-19,Not Eligible,False
+492,2026-06-18,2026-06-19,SSI Recipient,True
+493,2026-06-18,2026-06-19,Ex-Felon,True
+494,2026-06-18,2026-06-19,Long-Term Unemployment Recipient,True
+495,2026-06-19,2026-06-19,TANF Recipient,True
+496,2026-06-19,2026-06-19,Long-Term TANF Recipient,True
+497,2026-06-19,2026-06-19,Not Eligible,False
+498,2026-06-19,2026-06-19,Not Eligible,False
+499,2026-06-20,2026-06-26,Not Eligible,False
+500,2026-06-20,2026-06-26,SSI Recipient,True
+501,2026-06-21,2026-06-26,Long-Term Unemployment Recipient,True
+502,2026-06-21,2026-06-26,Not Eligible,False
+503,2026-06-22,2026-06-26,Not Eligible,False
+504,2026-06-22,2026-06-26,Not Eligible,False
+505,2026-06-22,2026-06-26,Not Eligible,False
+506,2026-06-23,2026-06-26,Long-Term TANF Recipient,True
+507,2026-06-23,2026-06-26,Not Eligible,False
+508,2026-06-23,2026-06-26,Long-Term Unemployment Recipient,True
+509,2026-06-23,2026-06-26,TANF Recipient,True
+510,2026-06-24,2026-06-26,TANF Recipient,True
+511,2026-06-24,2026-06-26,Not Eligible,False
+512,2026-06-24,2026-06-26,Not Eligible,False
+513,2026-06-24,2026-06-26,Not Eligible,False
+514,2026-06-25,2026-06-26,Not Eligible,False
+515,2026-06-25,2026-06-26,Not Eligible,False
+516,2026-06-25,2026-06-26,SSI Recipient,True
+517,2026-06-25,2026-06-26,SSI Recipient,True
+518,2026-06-26,2026-06-26,Designated Community Resident,True
+519,2026-06-26,2026-06-26,Long-Term Unemployment Recipient,True
+520,2026-06-26,2026-06-26,Summer Youth Employee,True
+521,2026-06-26,2026-06-26,Not Eligible,False
+522,2026-06-27,2026-07-03,Not Eligible,False
+523,2026-06-27,2026-07-03,Vocational Rehabilitation Referral,True
+524,2026-06-27,2026-07-03,Not Eligible,False
+525,2026-06-27,2026-07-03,Veteran - Unemployed,True
+526,2026-06-28,2026-07-03,Summer Youth Employee,True
+527,2026-06-29,2026-07-03,Vocational Rehabilitation Referral,True
+528,2026-06-29,2026-07-03,SSI Recipient,True
+529,2026-06-29,2026-07-03,TANF Recipient,True
+530,2026-06-29,2026-07-03,Veteran - Service-Connected Disability,True
+531,2026-06-29,2026-07-03,Ex-Felon,True
+532,2026-06-30,2026-07-03,Not Eligible,False
+533,2026-06-30,2026-07-03,Not Eligible,False
+534,2026-06-30,2026-07-03,Not Eligible,False
