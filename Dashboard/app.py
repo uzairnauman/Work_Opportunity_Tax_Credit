@@ -287,7 +287,7 @@ with tab_shifts:
 
     fig_pos = px.bar(
         pos_summary, x="Position", y="Hours", text="Hours",
-        color="Position", color_discrete_sequence=px.px.colors.qualitative.Safe
+        color="Position", color_discrete_sequence=px.colors.qualitative.Safe
     )
     fig_pos.update_layout(
         template="simple_white",
