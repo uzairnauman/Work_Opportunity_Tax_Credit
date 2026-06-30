@@ -1,0 +1,44 @@
+name: Daily HR Script
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # runs daily at 6:00 UTC
+  workflow_dispatch:      # allows manual run
+
+jobs:
+  run-main:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.13'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install pandas pendulum  # ensure these are installed even if missing from requirements.txt
+
+    - name: Run main.py
+      run: python main.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "saecqwe"
+        git config --global user.email "abdullahsf99@gmail..com"
+        
+        # Ensure we are adding the correct path
+        git add Datasets/Dataset1.csv
+        
+        # This checks if there's actually a change to avoid "empty commit" errors
+        if git diff --staged --quiet; then
+          echo "No changes detected in Dataset1.csv"
+        else
+          git commit -m "Automated HR update: $(date)"
+          git push
+        fi
