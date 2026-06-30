@@ -40,11 +40,19 @@ h4 { font-size: 16px !important; font-weight: 600 !important; color: #374151; ma
 /* Noise reduction on standard dividers */
 hr { margin: 2rem 0 !important; border-color: #F3F4F6 !important; }
 
-/* Clean UI Dataframes */
-[data-testid="stTable"], [data-testid="stDataFrame"] {
-    border-radius: 8px;
-    overflow: hidden;
+/* Modern Scrollable Chart Container Custom Class */
+.scrollable-chart-box {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 16px;
+    background: #FFFFFF;
 }
+/* Custom subtle scrollbar layout for modern look */
+.scrollable-chart-box::-webkit-scrollbar { width: 6px; }
+.scrollable-chart-box::-webkit-scrollbar-track { background: #F9FAFB; }
+.scrollable-chart-box::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 10px; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -118,14 +126,18 @@ with tab_hr:
     # Role distribution
     role_counts = df["position"].value_counts().reset_index()
     role_counts.columns = ["Role", "Employees"]
-    fig_roles = px.bar(role_counts, x="Employees", y="Role", text="Employees", orientation="h")
+    fig_roles = px.bar(
+        role_counts, x="Employees", y="Role", text="Employees", orientation="h",
+        hover_data={"Role": True, "Employees": True}
+    )
     fig_roles.update_layout(
         template="simple_white", 
         title="Workforce by Role",
         font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
         title_font=dict(size=16, weight="bold", color="#111827"),
         margin=dict(l=120, r=40, t=50, b=10),
-        showlegend=False
+        showlegend=False,
+        hoverlabel=dict(font_size=14, font_family="Inter")
     )
     fig_roles.update_traces(marker_color="#4F46E5", textposition="outside", marker_line_width=0, width=0.5)
     fig_roles.update_xaxes(showgrid=False, visible=False)
@@ -135,14 +147,18 @@ with tab_hr:
     # Average pay
     avg_pay = df.groupby("position")["base_pay_rate"].mean().reset_index()
     avg_pay.columns = ["Role", "Avg Pay"]
-    fig_pay = px.bar(avg_pay, x="Avg Pay", y="Role", text="Avg Pay", orientation="h")
+    fig_pay = px.bar(
+        avg_pay, x="Avg Pay", y="Role", text="Avg Pay", orientation="h",
+        hover_data={"Role": True, "Avg Pay": ":$.2f"}
+    )
     fig_pay.update_layout(
         template="simple_white", 
         title="Average Pay by Role",
         font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
         title_font=dict(size=16, weight="bold", color="#111827"),
         margin=dict(l=120, r=40, t=50, b=10),
-        showlegend=False
+        showlegend=False,
+        hoverlabel=dict(font_size=14, font_family="Inter")
     )
     fig_pay.update_traces(marker_color="#0D9488", textposition="outside", texttemplate="$%{text:.2f}", marker_line_width=0, width=0.5)
     fig_pay.update_xaxes(showgrid=False, visible=False)
@@ -246,38 +262,32 @@ with tab_shifts:
     )
     scoreboard.index += 1
 
-    board_col, chart_col = st.columns([1, 2])
-
-    with board_col:
-        st.markdown(f"**Employee Hours · {period_label}**")
-        display = scoreboard[["employee", "position", "shifts", "hours", "completed"]].copy()
-        display.columns = ["Employee", "Position", "Shifts", "Hours", "Completed"]
-        display["Hours"] = display["Hours"].map(lambda x: f"{x:.0f}")
-        st.dataframe(display, use_container_width=True, height=440)
-
-    with chart_col:
-        # Row layout row limit control
-        max_rows_scoreboard = st.slider("Rows to Display", min_value=5, max_value=30, value=15, key="sb_slider")
-        top_n = scoreboard.head(max_rows_scoreboard)
-        fig = px.bar(
-            top_n, x="hours", y="employee", color="position", orientation="h", text="hours",
-            title=f"Hours Worked by Employee (Top {max_rows_scoreboard})",
-            labels={"hours": "Hours Worked", "employee": "", "position": "Position"},
-            color_discrete_sequence=MODERN_PALETTE
-        )
-        fig.update_layout(
-            template="simple_white",
-            font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
-            title_font=dict(size=16, weight="bold", color="#111827"),
-            margin=dict(l=140, r=40, t=60, b=80),
-            yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
-            legend=dict(orientation="h", yanchor="top", y=-0.15, xanchor="left", x=0, title=None),
-            height=max(350, len(top_n) * 32)
-        )
-        fig.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
-        fig.update_xaxes(showgrid=False, visible=False)
-        fig.update_yaxes(showgrid=False, zeroline=False)
+    st.markdown(f"**Hours Worked by Employee · {period_label}**")
+    
+    fig = px.bar(
+        scoreboard, x="hours", y="employee", color="position", orientation="h", text="hours",
+        labels={"hours": "Hours Worked", "employee": "", "position": "Position"},
+        hover_data={"hours": True, "shifts": True, "position": True},
+        color_discrete_sequence=MODERN_PALETTE
+    )
+    fig.update_layout(
+        template="simple_white",
+        font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
+        margin=dict(l=140, r=40, t=20, b=80),
+        yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
+        legend=dict(orientation="h", yanchor="top", y=-0.05, xanchor="left", x=0, title=None),
+        height=max(400, len(scoreboard) * 36),
+        hoverlabel=dict(font_size=14, font_family="Inter")
+    )
+    fig.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
+    fig.update_xaxes(showgrid=False, visible=False)
+    fig.update_yaxes(showgrid=False, zeroline=False)
+    
+    # Inline Scrolling Container Wrapper
+    with st.container(border=False):
+        st.markdown('<div class="scrollable-chart-box">', unsafe_allow_html=True)
         st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
+        st.markdown('</div>', unsafe_allow_html=True)
 
     st.markdown("**Hours by Position**")
     pos_summary = (
@@ -289,14 +299,16 @@ with tab_shifts:
 
     fig_pos = px.bar(
         pos_summary, x="Position", y="Hours", text="Hours",
-        color="Position", color_discrete_sequence=MODERN_PALETTE
+        color="Position", color_discrete_sequence=MODERN_PALETTE,
+        hover_data={"Position": True, "Hours": ":.0f"}
     )
     fig_pos.update_layout(
         template="simple_white",
         font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
         showlegend=False,
         margin=dict(l=10, r=10, t=30, b=10),
-        height=280
+        height=280,
+        hoverlabel=dict(font_size=14, font_family="Inter")
     )
     fig_pos.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.3)
     fig_pos.update_xaxes(showgrid=False, zeroline=False, tickfont=dict(size=14))
@@ -343,34 +355,37 @@ with tab_wotc:
 
     st.divider()
 
-    # Shared slider configuration tool for dynamic layout control
-    max_rows_wotc = st.slider("Maximum Employees to Display", min_value=5, max_value=30, value=12, key="wotc_slider")
-
     st.markdown("#### At Risk — Under 120 Hours (No Credit Yet)")
     st.caption("These employees are WOTC eligible but haven't worked enough hours to earn any credit. Prioritize scheduling them.")
 
     if under_120.empty:
         st.success("All eligible employees have cleared 120 hours.")
     else:
-        top_under_120 = under_120.head(max_rows_wotc)
         fig1 = px.bar(
-            top_under_120, x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
+            under_120, x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
             labels={"total_hours": "Hours Worked", "employee": "", "wotc_category": "WOTC Category"},
+            hover_data={"employee": True, "total_hours": True, "wotc_category": True},
             color_discrete_sequence=px.colors.qualitative.Safe,
         )
         fig1.add_vline(x=120, line_dash="dash", line_color="#4B5563", annotation_text="120 hr minimum", annotation_position="top right")
         fig1.update_layout(
             template="simple_white",
             font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
-            margin=dict(l=140, r=40, t=50, b=100),
+            margin=dict(l=140, r=40, t=30, b=120),
             yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
-            height=max(350, len(top_under_120) * 32),
-            legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="left", x=0, title=None),
+            height=max(400, len(under_120) * 36), 
+            legend=dict(orientation="h", yanchor="top", y=-0.05, xanchor="left", x=0, title=None),
+            hoverlabel=dict(font_size=14, font_family="Inter")
         )
         fig1.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
         fig1.update_xaxes(showgrid=False, range=[0, 140], visible=False)
         fig1.update_yaxes(showgrid=False, zeroline=False)
-        st.plotly_chart(fig1, use_container_width=True, config={'displayModeBar': False})
+        
+        # Scrolling Wrapper
+        with st.container(border=False):
+            st.markdown('<div class="scrollable-chart-box">', unsafe_allow_html=True)
+            st.plotly_chart(fig1, use_container_width=True, config={'displayModeBar': False})
+            st.markdown('</div>', unsafe_allow_html=True)
 
     st.divider()
 
@@ -380,31 +395,35 @@ with tab_wotc:
     if mid_range.empty:
         st.info("No eligible employees in the 120–399 hour range yet.")
     else:
-        top_mid_range = mid_range.head(max_rows_wotc)
         fig2 = px.bar(
-            top_mid_range, x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
+            mid_range, x="total_hours", y="employee", color="wotc_category", orientation="h", text="total_hours",
             labels={"total_hours": "Hours Worked", "employee": "", "wotc_category": "WOTC Category"},
+            hover_data={"employee": True, "total_hours": True, "wotc_category": True},
             color_discrete_sequence=px.colors.qualitative.Pastel,
         )
         fig2.add_vline(x=400, line_dash="dash", line_color="#0D9488", annotation_text="400 hr full credit", annotation_position="top right")
         fig2.update_layout(
             template="simple_white",
             font=dict(family="Inter, system-ui", size=14, color="#1F2937"),
-            margin=dict(l=140, r=40, t=50, b=100),
+            margin=dict(l=140, r=40, t=30, b=120),
             yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
-            height=max(350, len(top_mid_range) * 32),
-            legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="left", x=0, title=None),
+            height=max(400, len(mid_range) * 36),
+            legend=dict(orientation="h", yanchor="top", y=-0.05, xanchor="left", x=0, title=None),
+            hoverlabel=dict(font_size=14, font_family="Inter")
         )
         fig2.update_traces(texttemplate="%{text:.0f} hrs", textposition="outside", marker_line_width=0, width=0.5)
         fig2.update_xaxes(showgrid=False, range=[0, 440], visible=False)
         fig2.update_yaxes(showgrid=False, zeroline=False)
-        st.plotly_chart(fig2, use_container_width=True, config={'displayModeBar': False})
+        
+        # Scrolling Wrapper
+        with st.container(border=False):
+            st.markdown('<div class="scrollable-chart-box">', unsafe_allow_html=True)
+            st.plotly_chart(fig2, use_container_width=True, config={'displayModeBar': False})
+            st.markdown('</div>', unsafe_allow_html=True)
 
     st.divider()
     
-    # ----------------------------------------------------------
-    # REWRITTEN: WOTC CATEGORY BREAKDOWN VISUALIZATION
-    # ----------------------------------------------------------
+    # WOTC Category Breakdown Chart
     st.markdown("#### Eligible Employees by WOTC Category")
     cat_summary = (
         tracking.groupby("wotc_category")
@@ -415,7 +434,8 @@ with tab_wotc:
     
     fig_cat = px.bar(
         cat_summary, x="Employees", y="WOTC Category", orientation="h", text="Employees",
-        color="WOTC Category", color_discrete_sequence=px.colors.qualitative.Safe
+        color="WOTC Category", color_discrete_sequence=px.colors.qualitative.Safe,
+        hover_data={"WOTC Category": True, "Employees": True, "Avg Hours": ":.1f"}
     )
     fig_cat.update_layout(
         template="simple_white",
@@ -423,7 +443,8 @@ with tab_wotc:
         showlegend=False,
         margin=dict(l=240, r=40, t=20, b=20),
         height=max(280, len(cat_summary) * 35),
-        yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14))
+        yaxis=dict(autorange="reversed", type='category', tickfont=dict(size=14)),
+        hoverlabel=dict(font_size=14, font_family="Inter")
     )
     fig_cat.update_traces(textposition="outside", marker_line_width=0, width=0.5)
     fig_cat.update_xaxes(showgrid=False, visible=False)
