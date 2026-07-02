@@ -43,3 +43,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 42,Annette,Turner,1513 Kelley Flat Apt. 947,Cameronburgh,DE,57543,(217)373-2394,Medicaid,Companion Care,CNA,Active,2026-07-15,,4,Daniel Davidson,386-600-7206x669
 43,Allison,Strong,321 Ryan Rest,South Regina,GA,75149,001-334-580-9856,LTC Insurance,Personal Care,CNA,Active,2026-07-01,,20,Jessica Barnes,255-984-5351
 44,Carlos,Mitchell,4141 Roy Terrace Apt. 147,North Evelyn,ME,45068,432.353.8563,Medicaid,Homemaker Services,RN,Active,2026-07-01,,14,Michaela Tapia,001-691-450-8593
+45,Christopher,Yoder,9368 Clayton Tunnel Apt. 052,East Jessica,IA,15640,(590)354-9602x58213,Medicaid,Skilled Nursing,RN,Active,2026-07-02,,40,Jeffrey Brown,894-573-3537x955
+46,Nicholas,Butler,23583 Nicole Squares Apt. 318,Lake Richardstad,WV,95589,455-448-3860,LTC Insurance,Homemaker Services,CHHA,Discharged - Family Request,2026-07-02,2026-07-02,10,Sandra Tyler,+1-693-407-1692x0051
