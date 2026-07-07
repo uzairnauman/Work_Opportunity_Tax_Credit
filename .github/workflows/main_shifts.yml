@@ -40,5 +40,9 @@ jobs:
           echo "No changes detected in Clients.csv / Shifts.csv"
         else
           git commit -m "Automated scheduling update: $(date)"
-          git push
+
+          # Get latest changes from GitHub before pushing
+          git pull --rebase origin main
+
+          git push origin main
         fi
