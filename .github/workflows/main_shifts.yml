@@ -30,7 +30,7 @@ jobs:
     - name: Commit and Push changes
       run: |
         git config --global user.name "saecqwe"
-        git config --global user.email "abdullahsf99@gmail..com"
+        git config --global user.email "abdullahsf99@gmail.com"
 
         # Scheduling system writes its own files only -- never touches
         # Dataset1.csv, which stays owned by main.yml / main.py
@@ -41,7 +41,7 @@ jobs:
         else
           git commit -m "Automated scheduling update: $(date)"
 
-          # Get latest changes from GitHub before pushing
+          # Sync with any manual GitHub changes before pushing
           git pull --rebase origin main
 
           git push origin main
