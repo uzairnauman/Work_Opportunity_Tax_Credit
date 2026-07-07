@@ -86,6 +86,6 @@ def discharge_clients(df: pd.DataFrame, max_discharge: int = 2, as_of: date = No
     chosen = active.sample(n=n_discharge, random_state=random.randint(0, 9999))
     for idx in chosen.index:
         df.at[idx, "status"] = random.choices(discharge_statuses, weights=weights, k=1)[0]
-        df.at[idx, "end_of_care_date"] = as_of
+        df.at[idx, "end_of_care_date"] = as_of.isoformat()
 
     return df
