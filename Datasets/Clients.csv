@@ -27,7 +27,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 26,Sydney,Patterson,420 Frank Hollow Suite 698,Port Jonathan,WY,73247,3685142604,Medicaid,Respite Care,LPN,Active,2026-07-02,,40,Troy Mckee,330-538-0324
 27,Luis,Johnson,78324 Lyons Spring,Deanport,NY,49176,8446449935,Medicaid,Skilled Nursing,CG,Discharged - Family Request,2026-07-02,2026-07-11,6,Lisa Garcia,8506883297
 28,Eric,Miller,4797 Ronald Expressway Suite 330,Kimfort,ID,95898,860-935-4356x414,LTC Insurance,Companion Care,CHHA,Active,2026-07-02,,14,Michael Tran,+1-752-907-3501x43602
-29,Samantha,Fields,3788 Potter Landing,East Marvin,MA,88514,701-260-8497x14189,LTC Insurance,Homemaker Services,CG,Active,2026-07-04,,20,Ann Gregory,964.511.8985x5586
+29,Samantha,Fields,3788 Potter Landing,East Marvin,MA,88514,701-260-8497x14189,LTC Insurance,Homemaker Services,CG,Discharged - Completed,2026-07-04,2026-07-08,20,Ann Gregory,964.511.8985x5586
 30,Kara,Reed,98639 Jeremiah Walk,Orozcomouth,VA,12204,(494)396-3288x82967,LTC Insurance,Companion Care,CNA,Active,2026-07-06,,40,Gabriel Johnson,335.399.2443x719
 31,Rebecca,Garner,712 Haynes Unions Apt. 932,Port Jacob,NH,55768,470-613-7892x2778,Medicare,Companion Care,CG,Discharged - Family Request,2026-07-06,2026-07-07,4,Charles Miller,+1-718-520-2249x06116
 32,John,Patrick,085 Jason Motorway,Lake Alanville,HI,91445,(641)517-6754,Medicare,Companion Care,CNA,Active,2026-07-06,,28,Brendan Morgan,5075461103
