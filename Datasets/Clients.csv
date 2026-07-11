@@ -33,7 +33,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 32,John,Patrick,085 Jason Motorway,Lake Alanville,HI,91445,(641)517-6754,Medicare,Companion Care,CNA,Active,2026-07-06,,28,Brendan Morgan,5075461103
 33,Bryan,Roberts,081 Melissa Park,Goldenland,MS,20850,657.748.6776x49641,Medicare,Skilled Nursing,CHHA,Active,2026-07-08,,6,Sandra Wilson,719-915-9828
 34,Samuel,Forbes,43180 Winters Garden Suite 213,Port Sarahshire,HI,44419,464.973.5632,Private Pay,Companion Care,RN,Active,2026-07-10,,8,Brian Flores,2325725385
-35,Jeremy,Campbell,904 Elizabeth Garden,North Leslie,WV,13571,+1-895-626-0356,LTC Insurance,Respite Care,CNA,Active,2026-07-11,,28,Kelly Aguilar,+1-541-328-6272x381
+35,Jeremy,Campbell,904 Elizabeth Garden,North Leslie,WV,13571,+1-895-626-0356,LTC Insurance,Respite Care,CNA,Discharged - Family Request,2026-07-11,2026-07-11,28,Kelly Aguilar,+1-541-328-6272x381
 36,Taylor,Evans,860 Morales Skyway,New Nicholasview,LA,10122,2008488243,Private Pay,Skilled Nursing,LPN,Active,2026-07-12,,4,Tammy Dean,473-478-9094x989
 37,Kari,Hernandez,736 Darryl Inlet,Goodmantown,PW,56070,457-296-6059x0925,Medicare,Skilled Nursing,LPN,Active,2026-07-12,,10,Sarah Patterson,+1-406-611-1463
 38,Catherine,Garcia,927 Christopher Haven,Lake Melissabury,OH,91848,+1-912-423-5042x9883,LTC Insurance,Homemaker Services,LPN,Active,2026-07-12,,10,Emily Hendricks,821.781.1812
@@ -54,3 +54,4 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 53,Stephen,Graves,362 Tara Fork,Port Jessicatown,MT,95522,(739)757-5995x230,Medicare,Skilled Nursing,RN,Active,2026-07-09,,8,Tracey Mitchell,001-972-667-4734x741
 54,Jeremy,Lynch,33844 Albert Parkway Suite 311,East Michelebury,OK,10129,+1-598-865-4199x689,Medicare,Companion Care,CG,Active,2026-07-09,,6,Alexis Vasquez,5103826030
 55,Linda,Clarke,7937 George Junction,Wilsonmouth,IL,76177,001-270-638-9790x69873,Private Pay,Respite Care,CG,Active,2026-07-10,,40,Amy Romero,001-878-355-3779x985
+56,Claudia,Rodriguez,245 Kelsey Cove Apt. 923,South Robertville,HI,19216,+1-909-522-6893,LTC Insurance,Companion Care,CG,Active,2026-07-11,,20,Christy Cruz,395-549-6231
