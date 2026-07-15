@@ -10,7 +10,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 9,Kimberly,Nicholson,352 Austin Place,West Robertmouth,NE,41144,(852)673-9280,Private Pay,Companion Care,CHHA,Discharged - Hospitalized,2026-07-01,2026-07-08,8,Mrs. Katherine Sanchez,001-227-525-8741x945
 10,Debbie,Castro,872 Daniel Knolls Suite 680,South Victorchester,MP,87043,619.621.6830x1136,Medicare,Companion Care,CNA,Active,2026-07-01,,10,Eric York,+1-200-317-0151x55966
 11,Michael,Macias,4883 Anthony Lane Suite 807,Port Kevinhaven,IN,53447,+1-563-246-5459x5642,LTC Insurance,Companion Care,LPN,Discharged - Completed,2026-07-01,2026-07-10,6,Laurie Dennis,(767)736-0984
-12,Laura,Anderson,583 Nathan Passage,Robertshire,TX,73113,655.946.8533,Medicaid,Skilled Nursing,RN,Active,2026-07-01,,6,Ryan Little,+1-739-601-7937x07131
+12,Laura,Anderson,583 Nathan Passage,Robertshire,TX,73113,655.946.8533,Medicaid,Skilled Nursing,RN,Discharged - Completed,2026-07-01,2026-07-15,6,Ryan Little,+1-739-601-7937x07131
 13,Albert,Diaz,1240 Garcia Extensions,Younghaven,CO,66010,(407)943-5433,Medicare,Respite Care,LPN,Discharged - Hospitalized,2026-07-01,2026-07-06,8,Olivia Mccormick,469.508.6798x4248
 14,Linda,Leblanc,3077 Cynthia Harbor,Cruzchester,NM,38192,611-455-8850,Private Pay,Respite Care,CNA,Discharged - Family Request,2026-07-01,2026-07-07,6,Stephanie Carey,+1-420-746-6003x8700
 15,William,Zimmerman,92890 Brenda Tunnel Apt. 143,East Wesley,MH,6711,001-230-259-7940,Medicaid,Personal Care,CG,Active,2026-07-01,,40,Mallory Evans,3626361218
