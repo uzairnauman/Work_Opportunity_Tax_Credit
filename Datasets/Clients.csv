@@ -40,7 +40,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 39,Samantha,Baker,50504 Jeffrey Ferry,Stefanieshire,MH,6942,742-718-3306x9952,Medicare,Personal Care,CG,Active,2026-07-14,,28,Douglas Strickland,001-390-559-4959
 40,Dustin,Wilson,1302 Allen Circles Apt. 728,Julieberg,MI,74466,7642136844,LTC Insurance,Companion Care,RN,Active,2026-07-15,,28,Katie Harrison,+1-603-713-8432x649
 41,Mary,Horne,49419 Pamela Forks,Kellyfort,KY,21237,200.287.0029x16114,Medicare,Homemaker Services,RN,Active,2026-07-15,,10,Sean Drake,(355)990-4082
-42,Annette,Turner,1513 Kelley Flat Apt. 947,Cameronburgh,DE,57543,(217)373-2394,Medicaid,Companion Care,CNA,Active,2026-07-15,,4,Daniel Davidson,386-600-7206x669
+42,Annette,Turner,1513 Kelley Flat Apt. 947,Cameronburgh,DE,57543,(217)373-2394,Medicaid,Companion Care,CNA,Discharged - Deceased,2026-07-15,2026-07-18,4,Daniel Davidson,386-600-7206x669
 43,Allison,Strong,321 Ryan Rest,South Regina,GA,75149,001-334-580-9856,LTC Insurance,Personal Care,CNA,Active,2026-07-01,,20,Jessica Barnes,255-984-5351
 44,Carlos,Mitchell,4141 Roy Terrace Apt. 147,North Evelyn,ME,45068,432.353.8563,Medicaid,Homemaker Services,RN,Active,2026-07-01,,14,Michaela Tapia,001-691-450-8593
 45,Christopher,Yoder,9368 Clayton Tunnel Apt. 052,East Jessica,IA,15640,(590)354-9602x58213,Medicaid,Skilled Nursing,RN,Active,2026-07-02,,40,Jeffrey Brown,894-573-3537x955
@@ -59,3 +59,4 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 58,Jessica,Meyer,49127 Kyle Stravenue,North Barbara,IA,88500,(301)788-0629x1461,VA Benefits,Personal Care,LPN,Active,2026-07-16,,28,Andrea Henry,(599)825-0247x9799
 59,Connie,Stone,030 Jerry Inlet,Charlesside,UT,96485,001-556-219-8287x42265,Private Pay,Skilled Nursing,CHHA,Active,2026-07-17,,8,Tyler Green,584-267-1989x6599
 60,Sarah,Velazquez,066 Williams Squares Suite 955,West John,NY,57857,+1-463-590-7498x28492,LTC Insurance,Companion Care,LPN,Active,2026-07-17,,4,Thomas Mason,930-385-3058x7624
+61,Natalie,Johnson,5280 Edward Glens Apt. 200,Lake Jaclyn,IL,19243,8436716540,Medicare,Companion Care,CNA,Active,2026-07-18,,28,Kristen Leblanc,+1-651-526-2330x0724
