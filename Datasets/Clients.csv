@@ -2,7 +2,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 1,Shawn,Larson,5729 Alvarez Pines Suite 522,Hughesshire,VT,83162,5507472134,Private Pay,Companion Care,CG,Active,2026-07-01,,40,Logan Cannon,+1-929-373-9703x47476
 2,Angela,Chavez,9901 Lauren Dale Suite 163,New Katelynchester,MP,59813,+1-751-925-2080x34714,Medicare,Personal Care,CNA,Discharged - Deceased,2026-07-01,2026-08-03,6,Maureen Rodriguez,5928014075
 3,Eric,Manning,085 Torres Walks,Johnland,WV,77387,+1-274-811-1602,VA Benefits,Personal Care,CG,Discharged - Hospitalized,2026-07-01,2026-08-06,40,Joshua King,461.526.6111x6398
-4,Thomas,Smith,104 Armstrong Knoll Suite 404,Johnsonmouth,NJ,89259,001-727-512-3174x3399,Medicaid,Companion Care,CG,Active,2026-07-01,,20,Erik James,643.819.4380x25341
+4,Thomas,Smith,104 Armstrong Knoll Suite 404,Johnsonmouth,NJ,89259,001-727-512-3174x3399,Medicaid,Companion Care,CG,Discharged - Completed,2026-07-01,2026-09-08,20,Erik James,643.819.4380x25341
 5,Jennifer,Cooper,027 White Meadows,Kathleenton,MH,33004,+1-808-746-7911x2943,VA Benefits,Companion Care,CG,Active,2026-07-01,,40,Brian Nash,001-377-323-8822
 6,Wayne,Owen,094 Natalie Cape,Colemanbury,CA,6961,001-870-379-4255x41820,LTC Insurance,Respite Care,LPN,Active,2026-07-01,,10,Eddie Simpson,(966)794-8552
 7,Steven,Holland,9345 Vanessa Hills,Port Megantown,SD,23639,5083735630,Medicare,Skilled Nursing,CHHA,Active,2026-07-01,,6,Brittany Fox,371-740-9307
@@ -143,3 +143,6 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 142,Cassandra,Lee,97886 Mitchell Centers Suite 703,Allenton,GU,38590,4428269105,VA Benefits,Personal Care,RN,Active,2026-09-07,,14,Terri Robles,606.567.6160x613
 143,Stephen,Howard,8396 Cabrera Glen Apt. 472,New Sean,MS,28113,866.629.5762x9844,VA Benefits,Skilled Nursing,CNA,Active,2026-09-07,,10,Colleen Torres,+1-683-266-7681x213
 144,Peter,Smith,4468 Robert Highway Apt. 620,East Kathleenland,GU,46418,(636)635-7580x1508,Medicare,Personal Care,RN,Active,2026-09-07,,8,Cynthia Adams,001-713-578-2290x468
+145,Michael,Riggs,3582 Gina Garden,Khanshire,VT,41173,(731)726-2736,Private Pay,Homemaker Services,CG,Active,2026-09-08,,6,Kristen Allen,6005724442
+146,Lisa,Taylor,592 West Grove Apt. 097,Melissaburgh,AR,21764,(828)201-4506,Private Pay,Respite Care,CNA,Active,2026-09-08,,4,Debra Stein,314.709.9359x3555
+147,Michael,Francis,4897 Holly Corners Suite 823,Jennafort,SC,42463,(967)663-1843x740,Medicare,Companion Care,LPN,Active,2026-09-08,,14,Austin Barnes,(793)664-2954x117
