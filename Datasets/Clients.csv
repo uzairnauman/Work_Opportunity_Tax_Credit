@@ -54,7 +54,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 53,Stephen,Graves,362 Tara Fork,Port Jessicatown,MT,95522,(739)757-5995x230,Medicare,Skilled Nursing,RN,Active,2026-07-09,,8,Tracey Mitchell,001-972-667-4734x741
 54,Jeremy,Lynch,33844 Albert Parkway Suite 311,East Michelebury,OK,10129,+1-598-865-4199x689,Medicare,Companion Care,CG,Active,2026-07-09,,6,Alexis Vasquez,5103826030
 55,Linda,Clarke,7937 George Junction,Wilsonmouth,IL,76177,001-270-638-9790x69873,Private Pay,Respite Care,CG,Active,2026-07-10,,40,Amy Romero,001-878-355-3779x985
-56,Claudia,Rodriguez,245 Kelsey Cove Apt. 923,South Robertville,HI,19216,+1-909-522-6893,LTC Insurance,Companion Care,CG,Active,2026-07-11,,20,Christy Cruz,395-549-6231
+56,Claudia,Rodriguez,245 Kelsey Cove Apt. 923,South Robertville,HI,19216,+1-909-522-6893,LTC Insurance,Companion Care,CG,Discharged - Completed,2026-07-11,2026-09-09,20,Christy Cruz,395-549-6231
 57,Donald,Burns,060 Campbell Ports Suite 890,North Frederickbury,VA,15187,(929)662-6119x4987,LTC Insurance,Respite Care,CNA,Active,2026-07-13,,6,Tony Lowe,268-566-1703
 58,Jessica,Meyer,49127 Kyle Stravenue,North Barbara,IA,88500,(301)788-0629x1461,VA Benefits,Personal Care,LPN,Active,2026-07-16,,28,Andrea Henry,(599)825-0247x9799
 59,Connie,Stone,030 Jerry Inlet,Charlesside,UT,96485,001-556-219-8287x42265,Private Pay,Skilled Nursing,CHHA,Active,2026-07-17,,8,Tyler Green,584-267-1989x6599
@@ -146,3 +146,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 145,Michael,Riggs,3582 Gina Garden,Khanshire,VT,41173,(731)726-2736,Private Pay,Homemaker Services,CG,Active,2026-09-08,,6,Kristen Allen,6005724442
 146,Lisa,Taylor,592 West Grove Apt. 097,Melissaburgh,AR,21764,(828)201-4506,Private Pay,Respite Care,CNA,Active,2026-09-08,,4,Debra Stein,314.709.9359x3555
 147,Michael,Francis,4897 Holly Corners Suite 823,Jennafort,SC,42463,(967)663-1843x740,Medicare,Companion Care,LPN,Active,2026-09-08,,14,Austin Barnes,(793)664-2954x117
+148,Ashley,Welch,9569 Myers Coves Apt. 776,Carterborough,VI,51341,794.525.8984x0783,Medicaid,Skilled Nursing,LPN,Active,2026-09-09,,14,Debra Skinner,726.244.4319
+149,Sara,Boyer,9884 Jimenez Point Suite 289,Matthewsview,UT,27558,+1-645-871-9061x142,Medicare,Companion Care,LPN,Active,2026-09-09,,28,Erika Orr,8102173134
