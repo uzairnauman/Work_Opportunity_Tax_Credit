@@ -69,7 +69,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 68,Jeffrey,Wilkerson,1869 Barton Mission,East Kaylatown,UT,55032,440-532-3823,Private Pay,Respite Care,CG,Discharged - Completed,2026-07-22,2026-08-13,4,Robin Arnold,600-540-0178
 69,Sara,Brown,685 Brown Club,South Riley,MP,83418,226-699-5766,VA Benefits,Companion Care,RN,Active,2026-07-22,,8,Kevin Mckenzie,+1-557-605-9927x212
 70,Brian,Frederick,58718 Jerry Corners Apt. 389,Garciaburgh,FM,82045,001-707-732-7989,Medicaid,Homemaker Services,RN,Active,2026-07-23,,8,Meghan Huynh,+1-975-272-5502x5517
-71,Kara,Williams,591 Craig Union,Waltershire,AR,73379,(397)803-7090,LTC Insurance,Skilled Nursing,LPN,Active,2026-07-24,,6,Megan Evans,(401)644-9883x9723
+71,Kara,Williams,591 Craig Union,Waltershire,AR,73379,(397)803-7090,LTC Insurance,Skilled Nursing,LPN,Discharged - Family Request,2026-07-24,2026-09-12,6,Megan Evans,(401)644-9883x9723
 72,Michelle,Johnson,5600 Johnston Motorway Suite 521,Millershire,WY,54068,001-593-610-7898x28646,Medicaid,Skilled Nursing,CNA,Active,2026-07-25,,28,Charlotte Gomez,+1-550-826-9945x21538
 73,John,Williamson,670 Jackson Mills Suite 809,West Jeffrey,DE,70823,560.911.2587x27401,Private Pay,Respite Care,CG,Active,2026-07-25,,20,Troy Perkins,(295)322-6061x58584
 74,Anthony,Smith,400 Tina Grove,Mcgrathport,MH,36536,463-762-1376,Medicaid,Respite Care,CHHA,Active,2026-07-26,,10,Teresa Garcia,882-397-3722x3580
