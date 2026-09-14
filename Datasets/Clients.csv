@@ -120,7 +120,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 119,Stephanie,Wilson,3136 Robert Trace Apt. 513,Guzmanhaven,AZ,27075,+1-537-468-4403x5937,Medicaid,Skilled Nursing,CNA,Active,2026-08-23,,8,Kelly Jacobs,375.251.8742x58650
 120,Benjamin,Conrad,13842 Cunningham Vista Apt. 541,North Jason,AL,40894,+1-207-699-2510x611,LTC Insurance,Companion Care,CNA,Active,2026-08-23,,14,Christopher Gray,474-434-4870
 121,James,Nolan,1462 Russell Crossing Apt. 709,Lake Shane,FM,44789,886.445.4301x5392,Medicaid,Homemaker Services,RN,Active,2026-08-24,,8,Thomas Murphy,(839)424-7835x74450
-122,John,Dougherty,08519 Mckinney Mission Suite 511,Shermanport,LA,23545,509-588-5973x3177,Private Pay,Homemaker Services,CG,Active,2026-08-25,,4,Christopher Green,001-710-977-7860x2825
+122,John,Dougherty,08519 Mckinney Mission Suite 511,Shermanport,LA,23545,509-588-5973x3177,Private Pay,Homemaker Services,CG,Discharged - Completed,2026-08-25,2026-09-14,4,Christopher Green,001-710-977-7860x2825
 123,James,Holland,290 Carlos Island Apt. 963,Timothyland,PR,94025,2734224538,VA Benefits,Respite Care,RN,Active,2026-08-26,,10,Kayla Mata,714.590.9718x724
 124,John,Harrison,94430 Wilson Lodge Suite 788,New Robert,FM,64792,+1-307-388-4701x4622,Private Pay,Respite Care,LPN,Active,2026-08-26,,10,Tyler Hess,001-983-817-6228x43980
 125,Brenda,Carter,6121 Steve Hollow Apt. 108,Jordanport,OK,79254,305.980.7167,LTC Insurance,Skilled Nursing,LPN,Active,2026-08-27,,4,Bethany Jensen,957-374-8793x5643
@@ -149,3 +149,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 148,Ashley,Welch,9569 Myers Coves Apt. 776,Carterborough,VI,51341,794.525.8984x0783,Medicaid,Skilled Nursing,LPN,Active,2026-09-09,,14,Debra Skinner,726.244.4319
 149,Sara,Boyer,9884 Jimenez Point Suite 289,Matthewsview,UT,27558,+1-645-871-9061x142,Medicare,Companion Care,LPN,Active,2026-09-09,,28,Erika Orr,8102173134
 150,James,Macdonald,807 Romero Stream Suite 287,Mariabury,FM,51383,(608)528-7297x554,VA Benefits,Companion Care,RN,Active,2026-09-11,,14,Tim Maxwell,514-619-7300
+151,Amanda,Contreras,00903 Kenneth Junction,Banksport,CA,40660,+1-850-773-0829,Medicaid,Companion Care,CG,Active,2026-09-14,,10,Connie Mitchell,639.865.4029
+152,Tamara,Brown,60906 Jason Lodge Suite 970,South Stephenmouth,SD,11948,+1-701-214-9091,LTC Insurance,Personal Care,CHHA,Active,2026-09-14,,14,Carl Johnson,2529735015
