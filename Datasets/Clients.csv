@@ -125,7 +125,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 124,John,Harrison,94430 Wilson Lodge Suite 788,New Robert,FM,64792,+1-307-388-4701x4622,Private Pay,Respite Care,LPN,Active,2026-08-26,,10,Tyler Hess,001-983-817-6228x43980
 125,Brenda,Carter,6121 Steve Hollow Apt. 108,Jordanport,OK,79254,305.980.7167,LTC Insurance,Skilled Nursing,LPN,Active,2026-08-27,,4,Bethany Jensen,957-374-8793x5643
 126,Joseph,Mason,7327 Monroe Islands,East Meganland,ND,96147,001-772-760-3965x95750,Private Pay,Respite Care,CG,Active,2026-08-27,,20,Deborah Hinton,(611)589-4977
-127,Andrew,Murphy,1619 Bradley Dale,West Laurastad,TN,75725,357.482.6932x0789,LTC Insurance,Skilled Nursing,LPN,Active,2026-08-28,,20,Mr. Danny Blevins,(906)605-4885x72284
+127,Andrew,Murphy,1619 Bradley Dale,West Laurastad,TN,75725,357.482.6932x0789,LTC Insurance,Skilled Nursing,LPN,Discharged - Family Request,2026-08-28,2026-09-15,20,Mr. Danny Blevins,(906)605-4885x72284
 128,Eric,Simmons,8311 Lisa Track Apt. 770,Joseshire,FL,24202,378.785.0914x7195,Medicare,Personal Care,CHHA,Active,2026-08-29,,40,Sara Curtis,001-318-932-6715x87073
 129,Cassandra,Miller,588 Laura Ranch Apt. 747,Port Bradleyport,NV,48400,716-685-8651x14121,Medicare,Homemaker Services,RN,Active,2026-08-30,,14,April Irwin,+1-581-861-6115x0337
 130,Jonathan,Montes,86620 Joseph Rue Suite 891,West Johnton,AL,94406,001-405-832-3792,Medicare,Skilled Nursing,CNA,Active,2026-08-30,,14,Christopher Love,763.790.2276x523
@@ -151,3 +151,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 150,James,Macdonald,807 Romero Stream Suite 287,Mariabury,FM,51383,(608)528-7297x554,VA Benefits,Companion Care,RN,Active,2026-09-11,,14,Tim Maxwell,514-619-7300
 151,Amanda,Contreras,00903 Kenneth Junction,Banksport,CA,40660,+1-850-773-0829,Medicaid,Companion Care,CG,Active,2026-09-14,,10,Connie Mitchell,639.865.4029
 152,Tamara,Brown,60906 Jason Lodge Suite 970,South Stephenmouth,SD,11948,+1-701-214-9091,LTC Insurance,Personal Care,CHHA,Active,2026-09-14,,14,Carl Johnson,2529735015
+153,Sara,Simmons,98059 Ross Stravenue,Lake Kevin,MH,03983,9756484435,Medicare,Skilled Nursing,CHHA,Active,2026-09-15,,28,Sonya Glass,904.783.3257x833
+154,Stephanie,Powell,28662 Bonnie River,Port Jeremystad,NY,26578,500.273.3644x1178,Medicare,Respite Care,CG,Active,2026-09-15,,4,Alex Mccarthy,(611)403-6023
