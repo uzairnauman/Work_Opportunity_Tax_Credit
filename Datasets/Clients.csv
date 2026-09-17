@@ -113,7 +113,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 112,Ashley,Schwartz,704 Buck Road Suite 659,Harrisfort,OH,26419,(448)715-1257x02284,LTC Insurance,Homemaker Services,LPN,Active,2026-08-17,,6,Daniel Kim,001-797-262-6982
 113,Christopher,Schaefer,24713 Perez Branch,East Shelby,MI,3978,001-589-435-7765x9008,LTC Insurance,Personal Care,LPN,Active,2026-08-18,,20,Cheryl Sutton,(848)270-6615x2267
 114,Kelsey,Munoz,113 Allen Lock,North April,NM,13188,+1-459-780-5741x17169,Medicare,Companion Care,CG,Active,2026-08-18,,8,Valerie Shaw,788.302.7331x447
-115,Larry,Brown,8303 Darlene Islands,Pageport,MI,9101,001-530-833-2396x5174,LTC Insurance,Companion Care,RN,Active,2026-08-19,,4,Christine Jennings,8403555536
+115,Larry,Brown,8303 Darlene Islands,Pageport,MI,9101,001-530-833-2396x5174,LTC Insurance,Companion Care,RN,Discharged - Completed,2026-08-19,2026-09-17,4,Christine Jennings,8403555536
 116,Maria,Thomas,13295 Michelle Road Apt. 308,Gregoryside,MP,9289,(474)212-2392x5263,VA Benefits,Personal Care,CNA,Active,2026-08-21,,8,Jennifer Romero,+1-622-409-2012x7706
 117,Amanda,Li,43414 Justin Lodge Apt. 440,Susanhaven,OK,58913,240.563.9538x60873,VA Benefits,Companion Care,CHHA,Active,2026-08-21,,14,Courtney Parrish,366-841-9660
 118,Shawn,Todd,818 Patterson Highway Suite 457,Fitzgeraldmouth,FL,82642,+1-491-429-8413x476,Medicaid,Personal Care,CNA,Active,2026-08-23,,20,Nicholas Weaver DDS,5046836272
@@ -155,4 +155,4 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 154,Stephanie,Powell,28662 Bonnie River,Port Jeremystad,NY,26578,500.273.3644x1178,Medicare,Respite Care,CG,Active,2026-09-15,,4,Alex Mccarthy,(611)403-6023
 155,Theresa,Floyd,49439 Christine Mountains Suite 412,Port Williamfort,MI,33939,591-650-6354x178,VA Benefits,Companion Care,CNA,Active,2026-09-16,,28,Brian Henry,391-827-1962x242
 156,Jennifer,Horton,74649 Brian Ramp,Espinozaberg,TX,90415,(283)264-4652x68142,Medicare,Skilled Nursing,CHHA,Active,2026-09-16,,6,Dennis Christensen,001-665-559-9022x62862
-157,Jasmine,Howell,82827 Richmond Skyway Suite 097,Sherryburgh,ME,01687,901-331-2411x4226,LTC Insurance,Skilled Nursing,CG,Active,2026-09-16,,20,Timothy Romero,(593)917-3052
+157,Jasmine,Howell,82827 Richmond Skyway Suite 097,Sherryburgh,ME,1687,901-331-2411x4226,LTC Insurance,Skilled Nursing,CG,Active,2026-09-16,,20,Timothy Romero,(593)917-3052
