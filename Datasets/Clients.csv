@@ -98,7 +98,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 97,Christine,Davis,92865 Martinez Cove,South Christineland,WY,71517,001-437-511-6645x9433,VA Benefits,Skilled Nursing,CNA,Active,2026-08-08,,10,Tanner Willis,001-948-511-5376
 98,Mia,Phillips,7328 Crystal Mountain,Smithtown,TX,47176,+1-812-387-8543,LTC Insurance,Companion Care,CNA,Active,2026-08-08,,10,Jason Gordon,001-541-768-2785x86222
 99,Allison,Hubbard,528 Rodriguez Wall,Timothystad,WI,94564,634-905-4127,VA Benefits,Homemaker Services,LPN,Active,2026-08-08,,4,Kerri Morton,859-749-1868
-100,Toni,Lowe,48221 Kristen Squares Apt. 697,Vargasside,NY,6029,(971)696-7459,VA Benefits,Respite Care,LPN,Active,2026-08-09,,20,Patricia Ward,691.520.4575
+100,Toni,Lowe,48221 Kristen Squares Apt. 697,Vargasside,NY,6029,(971)696-7459,VA Benefits,Respite Care,LPN,Discharged - Completed,2026-08-09,2026-09-18,20,Patricia Ward,691.520.4575
 101,Kelsey,Woods,0642 Peter Vista,New Hunter,NC,54174,488.855.2130x4575,Medicaid,Personal Care,CHHA,Active,2026-08-09,,40,Mark Peterson,937-725-3996
 102,Kimberly,Munoz,3654 Salazar Mountains Apt. 241,East Joshua,GU,40932,9579607660,VA Benefits,Homemaker Services,LPN,Active,2026-08-10,,14,Scott Lopez,(915)387-3818x70234
 103,Amy,Norman,219 Schneider Groves,Lake Brendaton,PW,53225,001-636-234-6998x5788,Private Pay,Skilled Nursing,CHHA,Active,2026-08-10,,14,Traci Rose,+1-730-365-0701x950
@@ -156,3 +156,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 155,Theresa,Floyd,49439 Christine Mountains Suite 412,Port Williamfort,MI,33939,591-650-6354x178,VA Benefits,Companion Care,CNA,Active,2026-09-16,,28,Brian Henry,391-827-1962x242
 156,Jennifer,Horton,74649 Brian Ramp,Espinozaberg,TX,90415,(283)264-4652x68142,Medicare,Skilled Nursing,CHHA,Active,2026-09-16,,6,Dennis Christensen,001-665-559-9022x62862
 157,Jasmine,Howell,82827 Richmond Skyway Suite 097,Sherryburgh,ME,1687,901-331-2411x4226,LTC Insurance,Skilled Nursing,CG,Active,2026-09-16,,20,Timothy Romero,(593)917-3052
+158,Alan,Mills,25734 Hester Manor,East Mariofort,VA,25986,623-425-7901,Medicaid,Respite Care,RN,Active,2026-09-18,,28,Chelsea Meyer,001-286-330-5473
+159,Nancy,Patterson,8042 Lucero Creek Apt. 828,South Ashleyview,NV,95627,(963)782-6712,Medicaid,Skilled Nursing,RN,Active,2026-09-18,,10,Stacy Foster,+1-970-739-7719x650
