@@ -160,5 +160,6 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 159,Nancy,Patterson,8042 Lucero Creek Apt. 828,South Ashleyview,NV,95627,(963)782-6712,Medicaid,Skilled Nursing,RN,Active,2026-09-18,,10,Stacy Foster,+1-970-739-7719x650
 160,Gregory,Marshall,152 Reeves Lights Suite 333,Michelebury,VA,47607,(673)617-1468,LTC Insurance,Companion Care,CNA,Active,2026-09-19,,8,Philip Summers,501.961.0122x0204
 161,John,Baker,8436 Terrence Meadow Apt. 749,Barberborough,DC,56085,+1-502-543-3936x9536,Private Pay,Skilled Nursing,LPN,Active,2026-09-20,,40,Robert Gomez,+1-777-362-3433x6835
-162,David,Williams,271 Kemp Freeway,Murrayburgh,AL,03279,+1-895-383-6393x72646,LTC Insurance,Respite Care,CNA,Active,2026-09-21,,10,Stephanie Wright,317.745.1714x013
+162,David,Williams,271 Kemp Freeway,Murrayburgh,AL,3279,+1-895-383-6393x72646,LTC Insurance,Respite Care,CNA,Active,2026-09-21,,10,Stephanie Wright,317.745.1714x013
 163,Gabriel,Jimenez,310 Janice Knoll Apt. 882,West Candacehaven,MO,31822,001-486-215-6306x48516,Medicare,Homemaker Services,CHHA,Active,2026-09-21,,20,Richard Fritz,(845)622-5642x952
+164,Alex,Parker,809 Natalie Squares,Fergusonhaven,VT,07057,663.224.6515x27821,VA Benefits,Respite Care,CHHA,Active,2026-09-22,,14,Steven Welch,(414)647-7775x85587
