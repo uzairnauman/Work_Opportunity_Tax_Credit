@@ -4,7 +4,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 3,Eric,Manning,085 Torres Walks,Johnland,WV,77387,+1-274-811-1602,VA Benefits,Personal Care,CG,Discharged - Hospitalized,2026-07-01,2026-08-06,40,Joshua King,461.526.6111x6398
 4,Thomas,Smith,104 Armstrong Knoll Suite 404,Johnsonmouth,NJ,89259,001-727-512-3174x3399,Medicaid,Companion Care,CG,Discharged - Completed,2026-07-01,2026-09-08,20,Erik James,643.819.4380x25341
 5,Jennifer,Cooper,027 White Meadows,Kathleenton,MH,33004,+1-808-746-7911x2943,VA Benefits,Companion Care,CG,Active,2026-07-01,,40,Brian Nash,001-377-323-8822
-6,Wayne,Owen,094 Natalie Cape,Colemanbury,CA,6961,001-870-379-4255x41820,LTC Insurance,Respite Care,LPN,Active,2026-07-01,,10,Eddie Simpson,(966)794-8552
+6,Wayne,Owen,094 Natalie Cape,Colemanbury,CA,6961,001-870-379-4255x41820,LTC Insurance,Respite Care,LPN,Discharged - Family Request,2026-07-01,2026-09-23,10,Eddie Simpson,(966)794-8552
 7,Steven,Holland,9345 Vanessa Hills,Port Megantown,SD,23639,5083735630,Medicare,Skilled Nursing,CHHA,Active,2026-07-01,,6,Brittany Fox,371-740-9307
 8,Kayla,Hall,738 Dana Vista Apt. 140,North Leslie,DE,63803,609.851.1572x6659,LTC Insurance,Homemaker Services,CNA,Discharged - Hospitalized,2026-07-01,2026-07-13,4,Nancy Johnson,283.664.6321
 9,Kimberly,Nicholson,352 Austin Place,West Robertmouth,NE,41144,(852)673-9280,Private Pay,Companion Care,CHHA,Discharged - Hospitalized,2026-07-01,2026-07-08,8,Mrs. Katherine Sanchez,001-227-525-8741x945
@@ -162,4 +162,6 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 161,John,Baker,8436 Terrence Meadow Apt. 749,Barberborough,DC,56085,+1-502-543-3936x9536,Private Pay,Skilled Nursing,LPN,Active,2026-09-20,,40,Robert Gomez,+1-777-362-3433x6835
 162,David,Williams,271 Kemp Freeway,Murrayburgh,AL,3279,+1-895-383-6393x72646,LTC Insurance,Respite Care,CNA,Active,2026-09-21,,10,Stephanie Wright,317.745.1714x013
 163,Gabriel,Jimenez,310 Janice Knoll Apt. 882,West Candacehaven,MO,31822,001-486-215-6306x48516,Medicare,Homemaker Services,CHHA,Active,2026-09-21,,20,Richard Fritz,(845)622-5642x952
-164,Alex,Parker,809 Natalie Squares,Fergusonhaven,VT,07057,663.224.6515x27821,VA Benefits,Respite Care,CHHA,Active,2026-09-22,,14,Steven Welch,(414)647-7775x85587
+164,Alex,Parker,809 Natalie Squares,Fergusonhaven,VT,7057,663.224.6515x27821,VA Benefits,Respite Care,CHHA,Active,2026-09-22,,14,Steven Welch,(414)647-7775x85587
+165,Lauren,Woodard,9314 Dwayne Points Suite 377,Feliciachester,KS,63946,001-453-697-6291x1237,VA Benefits,Personal Care,CG,Active,2026-09-23,,20,Ashley Soto,001-744-403-5149
+166,Julie,Erickson,79617 Anthony Ridges Suite 876,North Martha,AS,50935,+1-983-303-3937x604,LTC Insurance,Skilled Nursing,RN,Active,2026-09-23,,20,Amanda Clark,001-965-915-0580x04125
