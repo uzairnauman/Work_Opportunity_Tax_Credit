@@ -116,7 +116,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 115,Larry,Brown,8303 Darlene Islands,Pageport,MI,9101,001-530-833-2396x5174,LTC Insurance,Companion Care,RN,Discharged - Completed,2026-08-19,2026-09-17,4,Christine Jennings,8403555536
 116,Maria,Thomas,13295 Michelle Road Apt. 308,Gregoryside,MP,9289,(474)212-2392x5263,VA Benefits,Personal Care,CNA,Active,2026-08-21,,8,Jennifer Romero,+1-622-409-2012x7706
 117,Amanda,Li,43414 Justin Lodge Apt. 440,Susanhaven,OK,58913,240.563.9538x60873,VA Benefits,Companion Care,CHHA,Active,2026-08-21,,14,Courtney Parrish,366-841-9660
-118,Shawn,Todd,818 Patterson Highway Suite 457,Fitzgeraldmouth,FL,82642,+1-491-429-8413x476,Medicaid,Personal Care,CNA,Active,2026-08-23,,20,Nicholas Weaver DDS,5046836272
+118,Shawn,Todd,818 Patterson Highway Suite 457,Fitzgeraldmouth,FL,82642,+1-491-429-8413x476,Medicaid,Personal Care,CNA,Discharged - Completed,2026-08-23,2026-09-24,20,Nicholas Weaver DDS,5046836272
 119,Stephanie,Wilson,3136 Robert Trace Apt. 513,Guzmanhaven,AZ,27075,+1-537-468-4403x5937,Medicaid,Skilled Nursing,CNA,Active,2026-08-23,,8,Kelly Jacobs,375.251.8742x58650
 120,Benjamin,Conrad,13842 Cunningham Vista Apt. 541,North Jason,AL,40894,+1-207-699-2510x611,LTC Insurance,Companion Care,CNA,Active,2026-08-23,,14,Christopher Gray,474-434-4870
 121,James,Nolan,1462 Russell Crossing Apt. 709,Lake Shane,FM,44789,886.445.4301x5392,Medicaid,Homemaker Services,RN,Active,2026-08-24,,8,Thomas Murphy,(839)424-7835x74450
