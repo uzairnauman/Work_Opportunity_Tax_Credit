@@ -3,7 +3,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 2,Angela,Chavez,9901 Lauren Dale Suite 163,New Katelynchester,MP,59813,+1-751-925-2080x34714,Medicare,Personal Care,CNA,Discharged - Deceased,2026-07-01,2026-08-03,6,Maureen Rodriguez,5928014075
 3,Eric,Manning,085 Torres Walks,Johnland,WV,77387,+1-274-811-1602,VA Benefits,Personal Care,CG,Discharged - Hospitalized,2026-07-01,2026-08-06,40,Joshua King,461.526.6111x6398
 4,Thomas,Smith,104 Armstrong Knoll Suite 404,Johnsonmouth,NJ,89259,001-727-512-3174x3399,Medicaid,Companion Care,CG,Discharged - Completed,2026-07-01,2026-09-08,20,Erik James,643.819.4380x25341
-5,Jennifer,Cooper,027 White Meadows,Kathleenton,MH,33004,+1-808-746-7911x2943,VA Benefits,Companion Care,CG,Active,2026-07-01,,40,Brian Nash,001-377-323-8822
+5,Jennifer,Cooper,027 White Meadows,Kathleenton,MH,33004,+1-808-746-7911x2943,VA Benefits,Companion Care,CG,Discharged - Completed,2026-07-01,2026-09-29,40,Brian Nash,001-377-323-8822
 6,Wayne,Owen,094 Natalie Cape,Colemanbury,CA,6961,001-870-379-4255x41820,LTC Insurance,Respite Care,LPN,Discharged - Family Request,2026-07-01,2026-09-23,10,Eddie Simpson,(966)794-8552
 7,Steven,Holland,9345 Vanessa Hills,Port Megantown,SD,23639,5083735630,Medicare,Skilled Nursing,CHHA,Active,2026-07-01,,6,Brittany Fox,371-740-9307
 8,Kayla,Hall,738 Dana Vista Apt. 140,North Leslie,DE,63803,609.851.1572x6659,LTC Insurance,Homemaker Services,CNA,Discharged - Hospitalized,2026-07-01,2026-07-13,4,Nancy Johnson,283.664.6321
@@ -169,3 +169,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 168,Crystal,Price,867 Rodriguez Heights Apt. 270,Alexanderfurt,UT,34146,347-541-7122,Medicare,Respite Care,CHHA,Active,2026-09-28,,28,Ana Jones,942-873-6842
 169,Matthew,Fitzpatrick,80435 Davis Gardens,Juanchester,MS,17094,+1-719-399-5580x4207,Medicare,Homemaker Services,CNA,Active,2026-09-28,,10,Bethany Morris,001-562-778-6672x73472
 170,Laura,Anderson,18037 Jason Village Apt. 569,West Nicholasfort,MS,88028,001-649-940-4948x77621,Medicare,Companion Care,LPN,Active,2026-09-28,,28,Luis Miller,001-795-665-3525
+171,Paula,Peck,157 Alicia Mills Apt. 008,Rodriguezton,DC,87339,5655273313,LTC Insurance,Companion Care,CHHA,Active,2026-09-29,,4,Jessica Beasley,(552)476-1251x6620
+172,Scott,Pace,13737 Donald Manors,Ralphfort,RI,08859,001-428-323-0866x05822,Medicaid,Respite Care,CG,Active,2026-09-29,,20,Richard Heath,614.362.0874x08337
