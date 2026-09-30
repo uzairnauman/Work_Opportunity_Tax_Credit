@@ -121,7 +121,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 120,Benjamin,Conrad,13842 Cunningham Vista Apt. 541,North Jason,AL,40894,+1-207-699-2510x611,LTC Insurance,Companion Care,CNA,Active,2026-08-23,,14,Christopher Gray,474-434-4870
 121,James,Nolan,1462 Russell Crossing Apt. 709,Lake Shane,FM,44789,886.445.4301x5392,Medicaid,Homemaker Services,RN,Active,2026-08-24,,8,Thomas Murphy,(839)424-7835x74450
 122,John,Dougherty,08519 Mckinney Mission Suite 511,Shermanport,LA,23545,509-588-5973x3177,Private Pay,Homemaker Services,CG,Discharged - Completed,2026-08-25,2026-09-14,4,Christopher Green,001-710-977-7860x2825
-123,James,Holland,290 Carlos Island Apt. 963,Timothyland,PR,94025,2734224538,VA Benefits,Respite Care,RN,Active,2026-08-26,,10,Kayla Mata,714.590.9718x724
+123,James,Holland,290 Carlos Island Apt. 963,Timothyland,PR,94025,2734224538,VA Benefits,Respite Care,RN,Discharged - Completed,2026-08-26,2026-09-30,10,Kayla Mata,714.590.9718x724
 124,John,Harrison,94430 Wilson Lodge Suite 788,New Robert,FM,64792,+1-307-388-4701x4622,Private Pay,Respite Care,LPN,Active,2026-08-26,,10,Tyler Hess,001-983-817-6228x43980
 125,Brenda,Carter,6121 Steve Hollow Apt. 108,Jordanport,OK,79254,305.980.7167,LTC Insurance,Skilled Nursing,LPN,Active,2026-08-27,,4,Bethany Jensen,957-374-8793x5643
 126,Joseph,Mason,7327 Monroe Islands,East Meganland,ND,96147,001-772-760-3965x95750,Private Pay,Respite Care,CG,Active,2026-08-27,,20,Deborah Hinton,(611)589-4977
@@ -170,4 +170,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 169,Matthew,Fitzpatrick,80435 Davis Gardens,Juanchester,MS,17094,+1-719-399-5580x4207,Medicare,Homemaker Services,CNA,Active,2026-09-28,,10,Bethany Morris,001-562-778-6672x73472
 170,Laura,Anderson,18037 Jason Village Apt. 569,West Nicholasfort,MS,88028,001-649-940-4948x77621,Medicare,Companion Care,LPN,Active,2026-09-28,,28,Luis Miller,001-795-665-3525
 171,Paula,Peck,157 Alicia Mills Apt. 008,Rodriguezton,DC,87339,5655273313,LTC Insurance,Companion Care,CHHA,Active,2026-09-29,,4,Jessica Beasley,(552)476-1251x6620
-172,Scott,Pace,13737 Donald Manors,Ralphfort,RI,08859,001-428-323-0866x05822,Medicaid,Respite Care,CG,Active,2026-09-29,,20,Richard Heath,614.362.0874x08337
+172,Scott,Pace,13737 Donald Manors,Ralphfort,RI,8859,001-428-323-0866x05822,Medicaid,Respite Care,CG,Active,2026-09-29,,20,Richard Heath,614.362.0874x08337
+173,Haley,Patterson,0872 Thomas Plaza Suite 623,Michaelmouth,NC,85091,+1-497-880-2351x52976,Medicaid,Personal Care,RN,Active,2026-09-30,,20,Jean Hodges,+1-290-599-3176
+174,Amanda,Harris,729 Ricky Dale,South Michaelport,VA,90624,+1-586-215-5063x50189,VA Benefits,Personal Care,RN,Active,2026-09-30,,10,Michelle Elliott,001-402-987-1878x525
+175,Justin,Smith,44665 Miller Avenue Suite 700,Elizabethchester,AZ,34673,001-577-449-6445,Medicare,Personal Care,LPN,Active,2026-09-30,,6,Travis Norman,742-580-4117x189
