@@ -79,7 +79,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 78,Larry,Morales,98505 Pierce Tunnel Suite 337,New Melissaport,NY,8507,+1-578-519-4443x878,Medicare,Respite Care,CHHA,Active,2026-07-29,,6,Wayne Walsh,662.624.6452
 79,Ryan,Yates,129 Savannah Throughway,Port Deniseborough,PW,21282,941.513.7475,Medicaid,Companion Care,CHHA,Active,2026-07-29,,20,Kelly Pollard,(718)460-5740x3918
 80,Joseph,Myers,5778 Wolfe Land,Lake Paulville,IL,56768,+1-749-306-5862x416,Medicaid,Homemaker Services,LPN,Active,2026-07-30,,8,Lisa Johnson,361.853.8921x7830
-81,Carolyn,Franco,03520 Nancy Turnpike Apt. 978,Lake Garystad,MD,96063,(505)945-1823,Medicare,Skilled Nursing,CHHA,Active,2026-07-31,,10,Michaela Perez,(614)382-8560x744
+81,Carolyn,Franco,03520 Nancy Turnpike Apt. 978,Lake Garystad,MD,96063,(505)945-1823,Medicare,Skilled Nursing,CHHA,Discharged - Completed,2026-07-31,2026-10-01,10,Michaela Perez,(614)382-8560x744
 82,Bethany,Stevens,4196 Brown Ville Suite 671,South Jamie,ID,29679,+1-774-320-7354,Private Pay,Homemaker Services,LPN,Active,2026-08-01,,8,Jason Marshall,494.519.8008x8043
 83,Jamie,Rice,587 Michelle Way Suite 980,South Whitneychester,NJ,70365,(961)696-5704,Medicaid,Homemaker Services,LPN,Active,2026-08-01,,4,Xavier Mullen,+1-989-590-0873x453
 84,Jerry,Murphy,5846 Brooke Path Apt. 785,Lake Benjaminfort,MI,20842,399-422-8874x7818,Medicare,Respite Care,LPN,Active,2026-08-02,,8,Alan Wilson,+1-877-528-7256x5266
@@ -174,3 +174,4 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 173,Haley,Patterson,0872 Thomas Plaza Suite 623,Michaelmouth,NC,85091,+1-497-880-2351x52976,Medicaid,Personal Care,RN,Active,2026-09-30,,20,Jean Hodges,+1-290-599-3176
 174,Amanda,Harris,729 Ricky Dale,South Michaelport,VA,90624,+1-586-215-5063x50189,VA Benefits,Personal Care,RN,Active,2026-09-30,,10,Michelle Elliott,001-402-987-1878x525
 175,Justin,Smith,44665 Miller Avenue Suite 700,Elizabethchester,AZ,34673,001-577-449-6445,Medicare,Personal Care,LPN,Active,2026-09-30,,6,Travis Norman,742-580-4117x189
+176,Dakota,Scott,6596 Ortega Knoll Apt. 341,East Karenchester,PW,79337,(951)284-9579,Medicaid,Personal Care,CG,Active,2026-10-01,,10,Charles Lambert,964.427.1189x724
