@@ -87,7 +87,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 86,Lee,Benson,723 Wilson Burgs,Williamshire,WA,92116,(414)977-4496,Private Pay,Companion Care,RN,Active,2026-08-03,,14,Mr. Michael Mitchell,453-302-1104x234
 87,Benjamin,Kaiser,578 Gina Bridge Apt. 965,Karafort,VA,39256,329-316-0838,Medicare,Skilled Nursing,LPN,Active,2026-08-03,,6,Robert Moore,750-567-7480x011
 88,Michael,Anderson,703 Archer Falls Suite 863,East Cynthiaview,DE,29046,7656886290,Medicare,Companion Care,LPN,Discharged - Completed,2026-08-04,2026-08-04,6,Amanda Ewing,(548)573-6868
-89,Matthew,Clark,6540 James Tunnel Suite 548,Lopezview,MI,86921,(510)973-1598,Medicare,Companion Care,RN,Active,2026-08-04,,40,Kelly Wolfe,851.448.2776
+89,Matthew,Clark,6540 James Tunnel Suite 548,Lopezview,MI,86921,(510)973-1598,Medicare,Companion Care,RN,Discharged - Family Request,2026-08-04,2026-10-05,40,Kelly Wolfe,851.448.2776
 90,Charles,Thomas,7143 Thompson Burgs Suite 799,Lake Denise,ID,87888,297-799-8593,LTC Insurance,Skilled Nursing,RN,Active,2026-08-05,,6,Michael Becker,(381)743-1989x674
 91,Johnny,Rollins,008 Abigail Place,Travisport,LA,60584,335.842.7326x9362,VA Benefits,Homemaker Services,CNA,Active,2026-08-05,,4,Katherine Patton,+1-872-723-3363x160
 92,Leslie,Ramos,80774 Solomon River Suite 617,East Sarah,VA,86481,+1-883-369-8788,Medicare,Companion Care,RN,Discharged - Completed,2026-08-05,2026-08-30,20,Lauren Martinez,(311)847-8492
@@ -182,3 +182,6 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 181,Dawn,Hampton,14225 Lisa Tunnel,North Lisaview,GU,34355,778-611-6947x00570,VA Benefits,Personal Care,RN,Active,2026-10-04,,14,Yvonne Hunter,985.589.1988x800
 182,Paul,Davis,3145 Morrow Roads Suite 028,Barbaratown,NE,53479,558-474-0613x6954,VA Benefits,Skilled Nursing,CNA,Active,2026-10-04,,6,Sonia Nguyen,(911)877-2053x978
 183,Jeffrey,Ward,758 Ruth Wells,Port Donnastad,FL,57128,(510)803-7733,VA Benefits,Respite Care,LPN,Active,2026-10-04,,14,Nicole Foster,+1-865-627-5198
+184,Jennifer,Moran,94846 Patterson Creek Apt. 728,Jamesland,MO,70023,001-356-727-3398,Medicare,Companion Care,RN,Active,2026-10-05,,10,Catherine Torres,001-394-268-2518x257
+185,Jillian,Shaw,677 Levy Inlet Apt. 818,Lake Nicholas,AR,44096,(993)397-1957x378,Private Pay,Skilled Nursing,RN,Active,2026-10-05,,14,Alex Winters,(443)822-1436
+186,Lauren,Schroeder,6033 Reeves Club Apt. 659,West Sandraton,OR,33124,(917)807-0214x249,Medicare,Respite Care,LPN,Active,2026-10-05,,8,Bailey Edwards,001-873-236-6410
