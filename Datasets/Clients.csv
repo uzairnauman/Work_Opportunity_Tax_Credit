@@ -142,7 +142,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 141,Barry,Hogan,348 Mccall Estate Suite 337,Port Mary,PR,94151,001-700-329-5112x87214,Medicare,Personal Care,CHHA,Active,2026-09-06,,28,Tanya Leon,001-287-457-8218x40300
 142,Cassandra,Lee,97886 Mitchell Centers Suite 703,Allenton,GU,38590,4428269105,VA Benefits,Personal Care,RN,Active,2026-09-07,,14,Terri Robles,606.567.6160x613
 143,Stephen,Howard,8396 Cabrera Glen Apt. 472,New Sean,MS,28113,866.629.5762x9844,VA Benefits,Skilled Nursing,CNA,Active,2026-09-07,,10,Colleen Torres,+1-683-266-7681x213
-144,Peter,Smith,4468 Robert Highway Apt. 620,East Kathleenland,GU,46418,(636)635-7580x1508,Medicare,Personal Care,RN,Active,2026-09-07,,8,Cynthia Adams,001-713-578-2290x468
+144,Peter,Smith,4468 Robert Highway Apt. 620,East Kathleenland,GU,46418,(636)635-7580x1508,Medicare,Personal Care,RN,Discharged - Hospitalized,2026-09-07,2026-10-08,8,Cynthia Adams,001-713-578-2290x468
 145,Michael,Riggs,3582 Gina Garden,Khanshire,VT,41173,(731)726-2736,Private Pay,Homemaker Services,CG,Active,2026-09-08,,6,Kristen Allen,6005724442
 146,Lisa,Taylor,592 West Grove Apt. 097,Melissaburgh,AR,21764,(828)201-4506,Private Pay,Respite Care,CNA,Active,2026-09-08,,4,Debra Stein,314.709.9359x3555
 147,Michael,Francis,4897 Holly Corners Suite 823,Jennafort,SC,42463,(967)663-1843x740,Medicare,Companion Care,LPN,Active,2026-09-08,,14,Austin Barnes,(793)664-2954x117
