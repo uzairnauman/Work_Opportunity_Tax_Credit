@@ -97,7 +97,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 96,John,Owens,678 Ibarra Squares,Melanieton,TX,63534,(930)878-7297,Medicare,Homemaker Services,CHHA,Active,2026-08-07,,8,Anthony Wade,001-996-526-9087
 97,Christine,Davis,92865 Martinez Cove,South Christineland,WY,71517,001-437-511-6645x9433,VA Benefits,Skilled Nursing,CNA,Active,2026-08-08,,10,Tanner Willis,001-948-511-5376
 98,Mia,Phillips,7328 Crystal Mountain,Smithtown,TX,47176,+1-812-387-8543,LTC Insurance,Companion Care,CNA,Active,2026-08-08,,10,Jason Gordon,001-541-768-2785x86222
-99,Allison,Hubbard,528 Rodriguez Wall,Timothystad,WI,94564,634-905-4127,VA Benefits,Homemaker Services,LPN,Active,2026-08-08,,4,Kerri Morton,859-749-1868
+99,Allison,Hubbard,528 Rodriguez Wall,Timothystad,WI,94564,634-905-4127,VA Benefits,Homemaker Services,LPN,Discharged - Completed,2026-08-08,2026-10-14,4,Kerri Morton,859-749-1868
 100,Toni,Lowe,48221 Kristen Squares Apt. 697,Vargasside,NY,6029,(971)696-7459,VA Benefits,Respite Care,LPN,Discharged - Completed,2026-08-09,2026-09-18,20,Patricia Ward,691.520.4575
 101,Kelsey,Woods,0642 Peter Vista,New Hunter,NC,54174,488.855.2130x4575,Medicaid,Personal Care,CHHA,Active,2026-08-09,,40,Mark Peterson,937-725-3996
 102,Kimberly,Munoz,3654 Salazar Mountains Apt. 241,East Joshua,GU,40932,9579607660,VA Benefits,Homemaker Services,LPN,Active,2026-08-10,,14,Scott Lopez,(915)387-3818x70234
@@ -189,3 +189,4 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 188,Scott,Pearson,8788 Luis Stream Suite 134,Thomasstad,NE,82232,+1-423-810-7145x85357,Medicare,Homemaker Services,RN,Active,2026-10-07,,40,Nicholas Duncan,(232)940-7141x79356
 189,Denise,Rogers,01782 Kemp Tunnel,Heidiport,AR,27510,642-859-9603,VA Benefits,Companion Care,CNA,Active,2026-10-07,,28,Jeremy Garcia,247.521.8138x0867
 190,Melissa,Mccarthy,67248 Rhodes Trafficway,Port Markborough,ME,22746,503.542.1277x773,VA Benefits,Homemaker Services,RN,Active,2026-10-12,,28,Loretta Herrera,512-883-2713
+191,Damon,Johnson,279 Brian Landing,Lake Daniel,KS,83090,403.226.8042,Private Pay,Personal Care,LPN,Active,2026-10-14,,6,Katherine Roberts,663-644-4188
