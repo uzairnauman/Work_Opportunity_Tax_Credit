@@ -112,7 +112,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 111,Jason,Rogers,438 Shaw Walk,Mortonstad,PW,86874,216.365.6555x1476,Private Pay,Skilled Nursing,RN,Active,2026-08-16,,40,James Bird,547.776.3522x71503
 112,Ashley,Schwartz,704 Buck Road Suite 659,Harrisfort,OH,26419,(448)715-1257x02284,LTC Insurance,Homemaker Services,LPN,Active,2026-08-17,,6,Daniel Kim,001-797-262-6982
 113,Christopher,Schaefer,24713 Perez Branch,East Shelby,MI,3978,001-589-435-7765x9008,LTC Insurance,Personal Care,LPN,Active,2026-08-18,,20,Cheryl Sutton,(848)270-6615x2267
-114,Kelsey,Munoz,113 Allen Lock,North April,NM,13188,+1-459-780-5741x17169,Medicare,Companion Care,CG,Active,2026-08-18,,8,Valerie Shaw,788.302.7331x447
+114,Kelsey,Munoz,113 Allen Lock,North April,NM,13188,+1-459-780-5741x17169,Medicare,Companion Care,CG,Discharged - Deceased,2026-08-18,2026-10-19,8,Valerie Shaw,788.302.7331x447
 115,Larry,Brown,8303 Darlene Islands,Pageport,MI,9101,001-530-833-2396x5174,LTC Insurance,Companion Care,RN,Discharged - Completed,2026-08-19,2026-09-17,4,Christine Jennings,8403555536
 116,Maria,Thomas,13295 Michelle Road Apt. 308,Gregoryside,MP,9289,(474)212-2392x5263,VA Benefits,Personal Care,CNA,Active,2026-08-21,,8,Jennifer Romero,+1-622-409-2012x7706
 117,Amanda,Li,43414 Justin Lodge Apt. 440,Susanhaven,OK,58913,240.563.9538x60873,VA Benefits,Companion Care,CHHA,Active,2026-08-21,,14,Courtney Parrish,366-841-9660
@@ -198,3 +198,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 197,Larry,Collins,871 Emily Street,Port Ryan,MS,97331,+1-285-701-2077x0450,Private Pay,Companion Care,RN,Active,2026-10-16,,20,Michael Butler II,(555)886-8330
 198,Nicholas,Robles,26844 Parsons Crescent,Estradaville,AL,32986,375.713.5695x35872,Medicaid,Homemaker Services,RN,Active,2026-10-18,,4,Darrell Williams,001-547-529-8499x65574
 199,Nicholas,Hernandez,390 Monica Plaza,South Stephen,TX,17277,(614)957-7383,LTC Insurance,Homemaker Services,LPN,Active,2026-10-18,,20,Brandi Thomas,4189760115
+200,Tony,Robinson,1792 Rogers Hollow,South Joseph,KY,73551,(264)971-8529,LTC Insurance,Homemaker Services,LPN,Active,2026-10-19,,28,Jordan Jenkins,301-671-4793
+201,Alicia,Carter,0087 Jon Highway Apt. 007,Jonathanmouth,MT,46624,980-293-0518x51123,Private Pay,Skilled Nursing,CNA,Active,2026-10-19,,6,Gabriel Martin,001-521-810-1789x678
