@@ -187,7 +187,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 186,Lauren,Schroeder,6033 Reeves Club Apt. 659,West Sandraton,OR,33124,(917)807-0214x249,Medicare,Respite Care,LPN,Active,2026-10-05,,8,Bailey Edwards,001-873-236-6410
 187,Danielle,Sharp,4940 Pierce Springs,Brandonborough,MO,70177,890-894-0235x32516,VA Benefits,Personal Care,CG,Active,2026-10-06,,14,Cassandra Willis,+1-739-306-5728
 188,Scott,Pearson,8788 Luis Stream Suite 134,Thomasstad,NE,82232,+1-423-810-7145x85357,Medicare,Homemaker Services,RN,Active,2026-10-07,,40,Nicholas Duncan,(232)940-7141x79356
-189,Denise,Rogers,01782 Kemp Tunnel,Heidiport,AR,27510,642-859-9603,VA Benefits,Companion Care,CNA,Active,2026-10-07,,28,Jeremy Garcia,247.521.8138x0867
+189,Denise,Rogers,01782 Kemp Tunnel,Heidiport,AR,27510,642-859-9603,VA Benefits,Companion Care,CNA,Discharged - Family Request,2026-10-07,2026-10-25,28,Jeremy Garcia,247.521.8138x0867
 190,Melissa,Mccarthy,67248 Rhodes Trafficway,Port Markborough,ME,22746,503.542.1277x773,VA Benefits,Homemaker Services,RN,Active,2026-10-12,,28,Loretta Herrera,512-883-2713
 191,Damon,Johnson,279 Brian Landing,Lake Daniel,KS,83090,403.226.8042,Private Pay,Personal Care,LPN,Active,2026-10-14,,6,Katherine Roberts,663-644-4188
 192,William,Williams,1049 Kenneth Lodge Suite 998,Nicholasshire,FL,52175,360-488-2483,Medicare,Personal Care,CHHA,Active,2026-10-15,,10,Pamela Rose,(399)222-7460x02379
