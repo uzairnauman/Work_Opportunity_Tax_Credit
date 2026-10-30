@@ -147,7 +147,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 146,Lisa,Taylor,592 West Grove Apt. 097,Melissaburgh,AR,21764,(828)201-4506,Private Pay,Respite Care,CNA,Active,2026-09-08,,4,Debra Stein,314.709.9359x3555
 147,Michael,Francis,4897 Holly Corners Suite 823,Jennafort,SC,42463,(967)663-1843x740,Medicare,Companion Care,LPN,Active,2026-09-08,,14,Austin Barnes,(793)664-2954x117
 148,Ashley,Welch,9569 Myers Coves Apt. 776,Carterborough,VI,51341,794.525.8984x0783,Medicaid,Skilled Nursing,LPN,Active,2026-09-09,,14,Debra Skinner,726.244.4319
-149,Sara,Boyer,9884 Jimenez Point Suite 289,Matthewsview,UT,27558,+1-645-871-9061x142,Medicare,Companion Care,LPN,Active,2026-09-09,,28,Erika Orr,8102173134
+149,Sara,Boyer,9884 Jimenez Point Suite 289,Matthewsview,UT,27558,+1-645-871-9061x142,Medicare,Companion Care,LPN,Discharged - Completed,2026-09-09,2026-10-30,28,Erika Orr,8102173134
 150,James,Macdonald,807 Romero Stream Suite 287,Mariabury,FM,51383,(608)528-7297x554,VA Benefits,Companion Care,RN,Active,2026-09-11,,14,Tim Maxwell,514-619-7300
 151,Amanda,Contreras,00903 Kenneth Junction,Banksport,CA,40660,+1-850-773-0829,Medicaid,Companion Care,CG,Active,2026-09-14,,10,Connie Mitchell,639.865.4029
 152,Tamara,Brown,60906 Jason Lodge Suite 970,South Stephenmouth,SD,11948,+1-701-214-9091,LTC Insurance,Personal Care,CHHA,Active,2026-09-14,,14,Carl Johnson,2529735015
@@ -218,3 +218,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 217,Jaclyn,Morales,2387 Melissa Inlet Apt. 617,Millerville,VA,99248,597.721.5236,Private Pay,Skilled Nursing,CNA,Active,2026-10-28,,14,Angelica Bradford,+1-873-894-1431
 218,Gloria,Gordon,494 Mikayla Islands Apt. 707,South Mauriceberg,DE,53175,001-949-427-8477x423,Private Pay,Companion Care,CG,Active,2026-10-29,,40,Shawn Cruz,329-632-8815
 219,Zachary,Thompson,8986 Baxter Loaf,Villegashaven,VI,34200,2874621756,VA Benefits,Skilled Nursing,LPN,Active,2026-10-29,,40,Mary Peterson,(865)251-2716x31348
+220,David,Long,77704 Jason Freeway Apt. 332,Adamsside,WA,85968,+1-830-336-2073x657,VA Benefits,Skilled Nursing,CNA,Active,2026-10-30,,10,Sarah Griffin,+1-558-219-7167x018
+221,Eric,Washington,282 Latoya Shores,Marcusland,MD,15493,(659)536-5148x031,LTC Insurance,Homemaker Services,CG,Active,2026-10-30,,6,Nancy Cameron,+1-438-220-5200
