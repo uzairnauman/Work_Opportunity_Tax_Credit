@@ -119,7 +119,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 118,Shawn,Todd,818 Patterson Highway Suite 457,Fitzgeraldmouth,FL,82642,+1-491-429-8413x476,Medicaid,Personal Care,CNA,Discharged - Completed,2026-08-23,2026-09-24,20,Nicholas Weaver DDS,5046836272
 119,Stephanie,Wilson,3136 Robert Trace Apt. 513,Guzmanhaven,AZ,27075,+1-537-468-4403x5937,Medicaid,Skilled Nursing,CNA,Active,2026-08-23,,8,Kelly Jacobs,375.251.8742x58650
 120,Benjamin,Conrad,13842 Cunningham Vista Apt. 541,North Jason,AL,40894,+1-207-699-2510x611,LTC Insurance,Companion Care,CNA,Discharged - Completed,2026-08-23,2026-10-23,14,Christopher Gray,474-434-4870
-121,James,Nolan,1462 Russell Crossing Apt. 709,Lake Shane,FM,44789,886.445.4301x5392,Medicaid,Homemaker Services,RN,Active,2026-08-24,,8,Thomas Murphy,(839)424-7835x74450
+121,James,Nolan,1462 Russell Crossing Apt. 709,Lake Shane,FM,44789,886.445.4301x5392,Medicaid,Homemaker Services,RN,Discharged - Family Request,2026-08-24,2026-11-03,8,Thomas Murphy,(839)424-7835x74450
 122,John,Dougherty,08519 Mckinney Mission Suite 511,Shermanport,LA,23545,509-588-5973x3177,Private Pay,Homemaker Services,CG,Discharged - Completed,2026-08-25,2026-09-14,4,Christopher Green,001-710-977-7860x2825
 123,James,Holland,290 Carlos Island Apt. 963,Timothyland,PR,94025,2734224538,VA Benefits,Respite Care,RN,Discharged - Completed,2026-08-26,2026-09-30,10,Kayla Mata,714.590.9718x724
 124,John,Harrison,94430 Wilson Lodge Suite 788,New Robert,FM,64792,+1-307-388-4701x4622,Private Pay,Respite Care,LPN,Active,2026-08-26,,10,Tyler Hess,001-983-817-6228x43980
@@ -221,4 +221,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 220,David,Long,77704 Jason Freeway Apt. 332,Adamsside,WA,85968,+1-830-336-2073x657,VA Benefits,Skilled Nursing,CNA,Active,2026-10-30,,10,Sarah Griffin,+1-558-219-7167x018
 221,Eric,Washington,282 Latoya Shores,Marcusland,MD,15493,(659)536-5148x031,LTC Insurance,Homemaker Services,CG,Active,2026-10-30,,6,Nancy Cameron,+1-438-220-5200
 222,Julie,Shields,8432 Clark Flats Suite 787,New Scottton,MP,31310,5536547965,LTC Insurance,Homemaker Services,RN,Active,2026-11-02,,28,Grace Soto,955-249-1981
-223,Lance,Chavez,568 Randy Spurs Suite 247,Lake Heatherburgh,UT,01786,(200)322-4180,Medicare,Respite Care,CHHA,Active,2026-11-02,,10,Jose Gomez,555-408-2541x6333
+223,Lance,Chavez,568 Randy Spurs Suite 247,Lake Heatherburgh,UT,1786,(200)322-4180,Medicare,Respite Care,CHHA,Active,2026-11-02,,10,Jose Gomez,555-408-2541x6333
+224,Karen,Conway,7433 Richard Forest,Troytown,MI,81169,512.269.4608x418,VA Benefits,Personal Care,CG,Active,2026-11-03,,20,Calvin Miller,001-863-982-0344x4590
+225,Brian,Preston,73817 Natalie Meadow Apt. 831,East Stephenview,HI,30858,(982)959-3667,Private Pay,Personal Care,CNA,Active,2026-11-03,,28,Cody Benjamin,393.894.9453
+226,Joseph,Sanders,571 Monique Orchard Suite 130,Masonchester,IN,51872,(339)721-0727x2610,Private Pay,Personal Care,CNA,Active,2026-11-03,,20,Daniel Coleman,453.417.6441
