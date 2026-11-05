@@ -184,7 +184,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 183,Jeffrey,Ward,758 Ruth Wells,Port Donnastad,FL,57128,(510)803-7733,VA Benefits,Respite Care,LPN,Active,2026-10-04,,14,Nicole Foster,+1-865-627-5198
 184,Jennifer,Moran,94846 Patterson Creek Apt. 728,Jamesland,MO,70023,001-356-727-3398,Medicare,Companion Care,RN,Active,2026-10-05,,10,Catherine Torres,001-394-268-2518x257
 185,Jillian,Shaw,677 Levy Inlet Apt. 818,Lake Nicholas,AR,44096,(993)397-1957x378,Private Pay,Skilled Nursing,RN,Discharged - Completed,2026-10-05,2026-10-10,14,Alex Winters,(443)822-1436
-186,Lauren,Schroeder,6033 Reeves Club Apt. 659,West Sandraton,OR,33124,(917)807-0214x249,Medicare,Respite Care,LPN,Active,2026-10-05,,8,Bailey Edwards,001-873-236-6410
+186,Lauren,Schroeder,6033 Reeves Club Apt. 659,West Sandraton,OR,33124,(917)807-0214x249,Medicare,Respite Care,LPN,Discharged - Hospitalized,2026-10-05,2026-11-05,8,Bailey Edwards,001-873-236-6410
 187,Danielle,Sharp,4940 Pierce Springs,Brandonborough,MO,70177,890-894-0235x32516,VA Benefits,Personal Care,CG,Active,2026-10-06,,14,Cassandra Willis,+1-739-306-5728
 188,Scott,Pearson,8788 Luis Stream Suite 134,Thomasstad,NE,82232,+1-423-810-7145x85357,Medicare,Homemaker Services,RN,Active,2026-10-07,,40,Nicholas Duncan,(232)940-7141x79356
 189,Denise,Rogers,01782 Kemp Tunnel,Heidiport,AR,27510,642-859-9603,VA Benefits,Companion Care,CNA,Discharged - Family Request,2026-10-07,2026-10-25,28,Jeremy Garcia,247.521.8138x0867
@@ -226,3 +226,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 225,Brian,Preston,73817 Natalie Meadow Apt. 831,East Stephenview,HI,30858,(982)959-3667,Private Pay,Personal Care,CNA,Active,2026-11-03,,28,Cody Benjamin,393.894.9453
 226,Joseph,Sanders,571 Monique Orchard Suite 130,Masonchester,IN,51872,(339)721-0727x2610,Private Pay,Personal Care,CNA,Active,2026-11-03,,20,Daniel Coleman,453.417.6441
 227,Jacob,Davis,9411 James Unions,East Keith,RI,16789,443.558.3591,LTC Insurance,Personal Care,CHHA,Active,2026-11-04,,10,Jeffrey Kelley,001-919-857-5972x201
+228,Nicole,Mitchell,0953 Hendricks Walks,West Charles,WV,06680,(333)719-9262x3279,Private Pay,Respite Care,LPN,Active,2026-11-05,,6,Paul Wright,850-611-5565
+229,Daniel,Cohen,453 Vanessa Rue,West Michael,NY,21244,001-598-328-9812,Medicare,Respite Care,CG,Active,2026-11-05,,10,Donald Pierce,(222)489-4283
