@@ -229,6 +229,6 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 228,Nicole,Mitchell,0953 Hendricks Walks,West Charles,WV,6680,(333)719-9262x3279,Private Pay,Respite Care,LPN,Active,2026-11-05,,6,Paul Wright,850-611-5565
 229,Daniel,Cohen,453 Vanessa Rue,West Michael,NY,21244,001-598-328-9812,Medicare,Respite Care,CG,Active,2026-11-05,,10,Donald Pierce,(222)489-4283
 230,Erika,Clark,6030 Stuart Walk Suite 249,South Crystal,KY,86679,579-720-6944,LTC Insurance,Personal Care,CG,Active,2026-11-06,,4,Cole Reyes,(917)590-1241x2374
-231,Austin,Johnson,071 Williams Meadows Suite 215,New Nathan,DC,84019,7749910352,Medicaid,Personal Care,CHHA,Active,2026-11-07,,20,Chloe Benitez,647.799.1177
+231,Austin,Johnson,071 Williams Meadows Suite 215,New Nathan,DC,84019,7749910352,Medicaid,Personal Care,CHHA,Discharged - Completed,2026-11-07,2026-11-08,20,Chloe Benitez,647.799.1177
 232,Leslie,Wilkinson,764 Rose Square Apt. 607,Torresberg,IL,91582,348.681.3804x84842,LTC Insurance,Companion Care,LPN,Active,2026-11-07,,8,Stephen Mckinney,(786)365-8019x7682
 233,Scott,Valdez,60784 Cuevas Centers,North Veronica,UT,23306,+1-252-553-6174x1233,LTC Insurance,Skilled Nursing,RN,Active,2026-11-07,,20,Donna Ray,(332)829-8554
