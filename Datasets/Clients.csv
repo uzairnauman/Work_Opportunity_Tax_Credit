@@ -15,7 +15,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 14,Linda,Leblanc,3077 Cynthia Harbor,Cruzchester,NM,38192,611-455-8850,Private Pay,Respite Care,CNA,Discharged - Family Request,2026-07-01,2026-07-07,6,Stephanie Carey,+1-420-746-6003x8700
 15,William,Zimmerman,92890 Brenda Tunnel Apt. 143,East Wesley,MH,6711,001-230-259-7940,Medicaid,Personal Care,CG,Active,2026-07-01,,40,Mallory Evans,3626361218
 16,Ashlee,Newman,281 Mario Falls Apt. 207,Gomezville,DC,99117,(901)459-9371x7008,Medicare,Skilled Nursing,CG,Discharged - Deceased,2026-07-01,2026-08-19,28,Marc Jacobs,(596)892-7471
-17,Latoya,Hall,228 Christine Hollow,Lambertport,WV,86697,001-657-539-8271,VA Benefits,Personal Care,CHHA,Active,2026-07-01,,40,Gabriel Wallace,836.967.9858x5298
+17,Latoya,Hall,228 Christine Hollow,Lambertport,WV,86697,001-657-539-8271,VA Benefits,Personal Care,CHHA,Discharged - Completed,2026-07-01,2026-11-09,40,Gabriel Wallace,836.967.9858x5298
 18,Sara,Abbott,2740 Erika Manor,Bettyton,VA,15701,(364)975-8452x0748,LTC Insurance,Homemaker Services,CG,Discharged - Family Request,2026-07-01,2026-07-02,14,Bailey Williams,(588)286-3774x88159
 19,Jennifer,James,3105 Patricia Turnpike,Jerrybury,OK,67070,221.220.0031x391,Private Pay,Respite Care,CNA,Active,2026-07-01,,40,Laura Hopkins,(674)204-9315x7814
 20,William,Vazquez,225 Ryan Village Suite 331,East Michaelhaven,MT,8211,849-772-3935x3819,Private Pay,Skilled Nursing,LPN,Discharged - Completed,2026-07-01,2026-07-04,4,Michael Vasquez,216.234.5866
@@ -232,3 +232,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 231,Austin,Johnson,071 Williams Meadows Suite 215,New Nathan,DC,84019,7749910352,Medicaid,Personal Care,CHHA,Discharged - Completed,2026-11-07,2026-11-08,20,Chloe Benitez,647.799.1177
 232,Leslie,Wilkinson,764 Rose Square Apt. 607,Torresberg,IL,91582,348.681.3804x84842,LTC Insurance,Companion Care,LPN,Active,2026-11-07,,8,Stephen Mckinney,(786)365-8019x7682
 233,Scott,Valdez,60784 Cuevas Centers,North Veronica,UT,23306,+1-252-553-6174x1233,LTC Insurance,Skilled Nursing,RN,Active,2026-11-07,,20,Donna Ray,(332)829-8554
+234,Emily,Wise,33612 Williams Common,North Kelly,OR,43352,+1-849-469-2928x403,Medicare,Companion Care,LPN,Active,2026-11-09,,20,Kevin Mitchell,870.618.5116x98073
+235,Frank,Stevens,34805 Jones Circle,Colemouth,MA,62370,+1-895-757-3501,Medicaid,Skilled Nursing,RN,Active,2026-11-09,,8,Crystal Rose DDS,(563)793-2732
