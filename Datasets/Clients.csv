@@ -85,7 +85,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 84,Jerry,Murphy,5846 Brooke Path Apt. 785,Lake Benjaminfort,MI,20842,399-422-8874x7818,Medicare,Respite Care,LPN,Active,2026-08-02,,8,Alan Wilson,+1-877-528-7256x5266
 85,Michael,Hardin,5151 Butler Avenue,North Jennifer,DE,52490,220.917.1304x981,Medicare,Respite Care,CNA,Active,2026-08-03,,28,Juan Reid,932.974.0292x301
 86,Lee,Benson,723 Wilson Burgs,Williamshire,WA,92116,(414)977-4496,Private Pay,Companion Care,RN,Active,2026-08-03,,14,Mr. Michael Mitchell,453-302-1104x234
-87,Benjamin,Kaiser,578 Gina Bridge Apt. 965,Karafort,VA,39256,329-316-0838,Medicare,Skilled Nursing,LPN,Active,2026-08-03,,6,Robert Moore,750-567-7480x011
+87,Benjamin,Kaiser,578 Gina Bridge Apt. 965,Karafort,VA,39256,329-316-0838,Medicare,Skilled Nursing,LPN,Discharged - Completed,2026-08-03,2026-11-14,6,Robert Moore,750-567-7480x011
 88,Michael,Anderson,703 Archer Falls Suite 863,East Cynthiaview,DE,29046,7656886290,Medicare,Companion Care,LPN,Discharged - Completed,2026-08-04,2026-08-04,6,Amanda Ewing,(548)573-6868
 89,Matthew,Clark,6540 James Tunnel Suite 548,Lopezview,MI,86921,(510)973-1598,Medicare,Companion Care,RN,Discharged - Family Request,2026-08-04,2026-10-05,40,Kelly Wolfe,851.448.2776
 90,Charles,Thomas,7143 Thompson Burgs Suite 799,Lake Denise,ID,87888,297-799-8593,LTC Insurance,Skilled Nursing,RN,Active,2026-08-05,,6,Michael Becker,(381)743-1989x674
@@ -241,4 +241,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 240,Matthew,Robbins,91884 Mary Isle,Shortshire,VT,57903,(700)413-0252,VA Benefits,Companion Care,LPN,Active,2026-11-12,,4,Brandon Tucker,+1-249-551-6949x810
 241,Charles,Dennis,8069 Deborah Court Suite 148,Lauriefort,MD,67052,(388)869-4980x446,VA Benefits,Companion Care,CHHA,Active,2026-11-12,,8,Mark Miller,243.742.1291x60194
 242,Benjamin,Knight,05625 Douglas View,North Samantha,ND,84311,5123776664,Private Pay,Homemaker Services,RN,Active,2026-11-13,,6,Troy Robertson,001-945-312-1533x9856
-243,Steven,Little,9265 Torres Groves Apt. 341,Thomasberg,GA,01370,9558447991,LTC Insurance,Skilled Nursing,CNA,Active,2026-11-13,,40,Cody Patrick,593.685.0737
+243,Steven,Little,9265 Torres Groves Apt. 341,Thomasberg,GA,1370,9558447991,LTC Insurance,Skilled Nursing,CNA,Active,2026-11-13,,40,Cody Patrick,593.685.0737
+244,Stephanie,Vaughn,28027 Jennifer Course,New Julia,ND,12623,+1-967-596-9133x7718,LTC Insurance,Respite Care,RN,Active,2026-11-14,,28,Patrick Robinson,7258715019
+245,Stephanie,Roberts,0692 Brittany Forks,New Matthew,DE,38285,205-882-4786,LTC Insurance,Homemaker Services,LPN,Active,2026-11-14,,20,Russell Noble,001-649-659-9679x5496
+246,Elizabeth,Roy,92201 Katrina Turnpike,East Timothyland,SC,85822,(351)980-8603x5806,Private Pay,Skilled Nursing,RN,Active,2026-11-14,,14,Adam Dominguez,001-435-377-9294x17457
