@@ -149,7 +149,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 148,Ashley,Welch,9569 Myers Coves Apt. 776,Carterborough,VI,51341,794.525.8984x0783,Medicaid,Skilled Nursing,LPN,Active,2026-09-09,,14,Debra Skinner,726.244.4319
 149,Sara,Boyer,9884 Jimenez Point Suite 289,Matthewsview,UT,27558,+1-645-871-9061x142,Medicare,Companion Care,LPN,Discharged - Completed,2026-09-09,2026-10-30,28,Erika Orr,8102173134
 150,James,Macdonald,807 Romero Stream Suite 287,Mariabury,FM,51383,(608)528-7297x554,VA Benefits,Companion Care,RN,Active,2026-09-11,,14,Tim Maxwell,514-619-7300
-151,Amanda,Contreras,00903 Kenneth Junction,Banksport,CA,40660,+1-850-773-0829,Medicaid,Companion Care,CG,Active,2026-09-14,,10,Connie Mitchell,639.865.4029
+151,Amanda,Contreras,00903 Kenneth Junction,Banksport,CA,40660,+1-850-773-0829,Medicaid,Companion Care,CG,Discharged - Hospitalized,2026-09-14,2026-11-16,10,Connie Mitchell,639.865.4029
 152,Tamara,Brown,60906 Jason Lodge Suite 970,South Stephenmouth,SD,11948,+1-701-214-9091,LTC Insurance,Personal Care,CHHA,Active,2026-09-14,,14,Carl Johnson,2529735015
 153,Sara,Simmons,98059 Ross Stravenue,Lake Kevin,MH,3983,9756484435,Medicare,Skilled Nursing,CHHA,Active,2026-09-15,,28,Sonya Glass,904.783.3257x833
 154,Stephanie,Powell,28662 Bonnie River,Port Jeremystad,NY,26578,500.273.3644x1178,Medicare,Respite Care,CG,Active,2026-09-15,,4,Alex Mccarthy,(611)403-6023
@@ -247,3 +247,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 246,Elizabeth,Roy,92201 Katrina Turnpike,East Timothyland,SC,85822,(351)980-8603x5806,Private Pay,Skilled Nursing,RN,Active,2026-11-14,,14,Adam Dominguez,001-435-377-9294x17457
 247,Kelly,Hamilton,580 Jenny Ramp Suite 833,Clarkstad,ME,80707,408.323.6256x8416,Medicare,Companion Care,CG,Active,2026-11-15,,8,Dorothy Daniel,8723378019
 248,Christina,Smith,489 Martin Row,Craigstad,OH,65717,001-911-734-0090x4571,Medicaid,Respite Care,CG,Active,2026-11-15,,8,Mark Reed,+1-432-434-9474x4594
+249,Kenneth,Jones,66356 Steven Vista Apt. 142,West Hannahtown,LA,98821,(246)620-3536,Medicaid,Personal Care,RN,Active,2026-11-16,,4,James Clarke,+1-641-628-5521x3897
+250,Deborah,Harris,6519 Miguel Parkways Apt. 223,Christopherchester,IL,28890,001-533-308-4185x8402,VA Benefits,Respite Care,CG,Active,2026-11-16,,28,Rebecca Jenkins,001-605-429-6198x7836
