@@ -88,7 +88,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 87,Benjamin,Kaiser,578 Gina Bridge Apt. 965,Karafort,VA,39256,329-316-0838,Medicare,Skilled Nursing,LPN,Discharged - Completed,2026-08-03,2026-11-14,6,Robert Moore,750-567-7480x011
 88,Michael,Anderson,703 Archer Falls Suite 863,East Cynthiaview,DE,29046,7656886290,Medicare,Companion Care,LPN,Discharged - Completed,2026-08-04,2026-08-04,6,Amanda Ewing,(548)573-6868
 89,Matthew,Clark,6540 James Tunnel Suite 548,Lopezview,MI,86921,(510)973-1598,Medicare,Companion Care,RN,Discharged - Family Request,2026-08-04,2026-10-05,40,Kelly Wolfe,851.448.2776
-90,Charles,Thomas,7143 Thompson Burgs Suite 799,Lake Denise,ID,87888,297-799-8593,LTC Insurance,Skilled Nursing,RN,Active,2026-08-05,,6,Michael Becker,(381)743-1989x674
+90,Charles,Thomas,7143 Thompson Burgs Suite 799,Lake Denise,ID,87888,297-799-8593,LTC Insurance,Skilled Nursing,RN,Discharged - Deceased,2026-08-05,2026-11-21,6,Michael Becker,(381)743-1989x674
 91,Johnny,Rollins,008 Abigail Place,Travisport,LA,60584,335.842.7326x9362,VA Benefits,Homemaker Services,CNA,Active,2026-08-05,,4,Katherine Patton,+1-872-723-3363x160
 92,Leslie,Ramos,80774 Solomon River Suite 617,East Sarah,VA,86481,+1-883-369-8788,Medicare,Companion Care,RN,Discharged - Completed,2026-08-05,2026-08-30,20,Lauren Martinez,(311)847-8492
 93,Jill,Arnold,829 Jordan Park,Hornside,SC,12610,001-791-912-8733x3259,VA Benefits,Companion Care,CG,Active,2026-08-06,,6,Jessica Gonzalez,919.681.0590
