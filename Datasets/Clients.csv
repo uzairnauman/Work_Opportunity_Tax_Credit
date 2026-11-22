@@ -243,7 +243,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 242,Benjamin,Knight,05625 Douglas View,North Samantha,ND,84311,5123776664,Private Pay,Homemaker Services,RN,Active,2026-11-13,,6,Troy Robertson,001-945-312-1533x9856
 243,Steven,Little,9265 Torres Groves Apt. 341,Thomasberg,GA,1370,9558447991,LTC Insurance,Skilled Nursing,CNA,Active,2026-11-13,,40,Cody Patrick,593.685.0737
 244,Stephanie,Vaughn,28027 Jennifer Course,New Julia,ND,12623,+1-967-596-9133x7718,LTC Insurance,Respite Care,RN,Active,2026-11-14,,28,Patrick Robinson,7258715019
-245,Stephanie,Roberts,0692 Brittany Forks,New Matthew,DE,38285,205-882-4786,LTC Insurance,Homemaker Services,LPN,Active,2026-11-14,,20,Russell Noble,001-649-659-9679x5496
+245,Stephanie,Roberts,0692 Brittany Forks,New Matthew,DE,38285,205-882-4786,LTC Insurance,Homemaker Services,LPN,Discharged - Completed,2026-11-14,2026-11-22,20,Russell Noble,001-649-659-9679x5496
 246,Elizabeth,Roy,92201 Katrina Turnpike,East Timothyland,SC,85822,(351)980-8603x5806,Private Pay,Skilled Nursing,RN,Active,2026-11-14,,14,Adam Dominguez,001-435-377-9294x17457
 247,Kelly,Hamilton,580 Jenny Ramp Suite 833,Clarkstad,ME,80707,408.323.6256x8416,Medicare,Companion Care,CG,Active,2026-11-15,,8,Dorothy Daniel,8723378019
 248,Christina,Smith,489 Martin Row,Craigstad,OH,65717,001-911-734-0090x4571,Medicaid,Respite Care,CG,Active,2026-11-15,,8,Mark Reed,+1-432-434-9474x4594
