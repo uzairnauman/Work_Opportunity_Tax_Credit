@@ -35,7 +35,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 34,Samuel,Forbes,43180 Winters Garden Suite 213,Port Sarahshire,HI,44419,464.973.5632,Private Pay,Companion Care,RN,Active,2026-07-10,,8,Brian Flores,2325725385
 35,Jeremy,Campbell,904 Elizabeth Garden,North Leslie,WV,13571,+1-895-626-0356,LTC Insurance,Respite Care,CNA,Discharged - Family Request,2026-07-11,2026-07-11,28,Kelly Aguilar,+1-541-328-6272x381
 36,Taylor,Evans,860 Morales Skyway,New Nicholasview,LA,10122,2008488243,Private Pay,Skilled Nursing,LPN,Active,2026-07-12,,4,Tammy Dean,473-478-9094x989
-37,Kari,Hernandez,736 Darryl Inlet,Goodmantown,PW,56070,457-296-6059x0925,Medicare,Skilled Nursing,LPN,Active,2026-07-12,,10,Sarah Patterson,+1-406-611-1463
+37,Kari,Hernandez,736 Darryl Inlet,Goodmantown,PW,56070,457-296-6059x0925,Medicare,Skilled Nursing,LPN,Discharged - Family Request,2026-07-12,2026-11-25,10,Sarah Patterson,+1-406-611-1463
 38,Catherine,Garcia,927 Christopher Haven,Lake Melissabury,OH,91848,+1-912-423-5042x9883,LTC Insurance,Homemaker Services,LPN,Active,2026-07-12,,10,Emily Hendricks,821.781.1812
 39,Samantha,Baker,50504 Jeffrey Ferry,Stefanieshire,MH,6942,742-718-3306x9952,Medicare,Personal Care,CG,Discharged - Completed,2026-07-14,2026-08-11,28,Douglas Strickland,001-390-559-4959
 40,Dustin,Wilson,1302 Allen Circles Apt. 728,Julieberg,MI,74466,7642136844,LTC Insurance,Companion Care,RN,Active,2026-07-15,,28,Katie Harrison,+1-603-713-8432x649
@@ -258,3 +258,5 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 257,Matthew,Snow,34118 Rowe Causeway Apt. 662,South Alyssamouth,MP,43688,947.808.9332x866,LTC Insurance,Homemaker Services,CNA,Active,2026-11-19,,20,Melvin Wyatt,001-552-705-6562x960
 258,Jeffery,Lopez,4215 Molina Groves Apt. 732,South Raymondville,VT,88282,001-672-979-9268,LTC Insurance,Respite Care,LPN,Active,2026-11-23,,28,Becky Frank,502-600-7159x13777
 259,Tyler,Williams,64939 Christopher Tunnel Suite 872,Victoriaberg,AL,89133,2128276355,Medicare,Respite Care,CNA,Active,2026-11-23,,14,Eddie Cameron,474.582.7755x7512
+260,Lacey,Patton,58332 Preston Gateway,South Joseph,NE,08210,4427176953,VA Benefits,Homemaker Services,RN,Active,2026-11-25,,4,Alyssa Rosario,484-514-6143
+261,Kenneth,Wood,219 Jeremiah Pine Suite 515,North Isaiahchester,WA,90410,001-538-811-9923,VA Benefits,Homemaker Services,RN,Active,2026-11-25,,20,Emily Maynard,(746)303-8011x825
