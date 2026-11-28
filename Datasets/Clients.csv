@@ -71,7 +71,7 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 70,Brian,Frederick,58718 Jerry Corners Apt. 389,Garciaburgh,FM,82045,001-707-732-7989,Medicaid,Homemaker Services,RN,Active,2026-07-23,,8,Meghan Huynh,+1-975-272-5502x5517
 71,Kara,Williams,591 Craig Union,Waltershire,AR,73379,(397)803-7090,LTC Insurance,Skilled Nursing,LPN,Discharged - Family Request,2026-07-24,2026-09-12,6,Megan Evans,(401)644-9883x9723
 72,Michelle,Johnson,5600 Johnston Motorway Suite 521,Millershire,WY,54068,001-593-610-7898x28646,Medicaid,Skilled Nursing,CNA,Active,2026-07-25,,28,Charlotte Gomez,+1-550-826-9945x21538
-73,John,Williamson,670 Jackson Mills Suite 809,West Jeffrey,DE,70823,560.911.2587x27401,Private Pay,Respite Care,CG,Active,2026-07-25,,20,Troy Perkins,(295)322-6061x58584
+73,John,Williamson,670 Jackson Mills Suite 809,West Jeffrey,DE,70823,560.911.2587x27401,Private Pay,Respite Care,CG,Discharged - Completed,2026-07-25,2026-11-28,20,Troy Perkins,(295)322-6061x58584
 74,Anthony,Smith,400 Tina Grove,Mcgrathport,MH,36536,463-762-1376,Medicaid,Respite Care,CHHA,Active,2026-07-26,,10,Teresa Garcia,882-397-3722x3580
 75,Brandon,Combs,8840 Mike Green,Alexfort,WV,48149,001-780-723-0682x79372,LTC Insurance,Homemaker Services,CHHA,Active,2026-07-26,,8,Andrea Becker,(300)427-0459
 76,Sean,Rowe,9817 Campbell Turnpike,Lopezmouth,NM,35166,505.633.7228x72660,VA Benefits,Respite Care,CNA,Discharged - Family Request,2026-07-27,2026-08-23,20,Laura Perkins,+1-697-374-4039x66245
@@ -262,3 +262,6 @@ client_id,first_name,last_name,address,city,state,zip,primary_phone,payer_type,c
 261,Kenneth,Wood,219 Jeremiah Pine Suite 515,North Isaiahchester,WA,90410,001-538-811-9923,VA Benefits,Homemaker Services,RN,Active,2026-11-25,,20,Emily Maynard,(746)303-8011x825
 262,Shaun,Dyer,58065 Brandon Passage,Wrightshire,FM,21615,743.489.5401,Medicare,Respite Care,CG,Active,2026-11-27,,14,Victoria Barry,605-276-6827x139
 263,Jennifer,Livingston,695 Megan Wells,Mitchellchester,MN,56760,693-928-3148,Medicare,Skilled Nursing,CNA,Active,2026-11-27,,14,Morgan Dorsey,980.720.8655
+264,Taylor,Farley,165 Fowler Road,Charlesport,VT,51148,(570)647-7561,LTC Insurance,Homemaker Services,CNA,Active,2026-11-28,,20,Carl Rice,+1-660-823-9906x47729
+265,Pamela,Evans,70223 Richardson Avenue Apt. 681,Natalieview,NV,71531,771-628-8645x94505,LTC Insurance,Respite Care,LPN,Active,2026-11-28,,14,Stephanie Sanchez,+1-477-994-0366x159
+266,Kimberly,Lowery,39976 Stuart Burgs,Matthewburgh,IL,85506,+1-846-310-4597,Medicare,Skilled Nursing,CHHA,Active,2026-11-28,,8,Amanda Miller,(592)559-5994
